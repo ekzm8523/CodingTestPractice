@@ -170,6 +170,33 @@ Hash_4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hash_4.cpp.s
 .PHONY : Hash_4.cpp.s
 
+StackQueue4_printer.o: StackQueue4_printer.cpp.o
+
+.PHONY : StackQueue4_printer.o
+
+# target to build an object file
+StackQueue4_printer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/StackQueue4_printer.cpp.o
+.PHONY : StackQueue4_printer.cpp.o
+
+StackQueue4_printer.i: StackQueue4_printer.cpp.i
+
+.PHONY : StackQueue4_printer.i
+
+# target to preprocess a source file
+StackQueue4_printer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/StackQueue4_printer.cpp.i
+.PHONY : StackQueue4_printer.cpp.i
+
+StackQueue4_printer.s: StackQueue4_printer.cpp.s
+
+.PHONY : StackQueue4_printer.s
+
+# target to generate assembly for a file
+StackQueue4_printer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/StackQueue4_printer.cpp.s
+.PHONY : StackQueue4_printer.cpp.s
+
 Stack_1.o: Stack_1.cpp.o
 
 .PHONY : Stack_1.o
@@ -344,6 +371,9 @@ help:
 	@echo "... Hash_4.o"
 	@echo "... Hash_4.i"
 	@echo "... Hash_4.s"
+	@echo "... StackQueue4_printer.o"
+	@echo "... StackQueue4_printer.i"
+	@echo "... StackQueue4_printer.s"
 	@echo "... Stack_1.o"
 	@echo "... Stack_1.i"
 	@echo "... Stack_1.s"

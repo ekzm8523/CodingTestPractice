@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/macbook/CLionProjects/Programmers/Hash_4.cpp
+/Users/macbook/CLionProjects/Programmers/StackQueue4_printer.cpp
+unordered_map
+-
+queue
+-
 string
 -
 vector
 -
-unordered_map
--
-map
--
 iostream
--
-set
 -
 

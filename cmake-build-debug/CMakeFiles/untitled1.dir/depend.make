@@ -9,6 +9,8 @@ CMakeFiles/untitled1.dir/test.c.o: ../test.c
 
 CMakeFiles/untitled1.dir/Hash_4.cpp.o: ../Hash_4.cpp
 
+CMakeFiles/untitled1.dir/StackQueue4_printer.cpp.o: ../StackQueue4_printer.cpp
+
 CMakeFiles/untitled1.dir/Stack_1.cpp.o: ../Stack_1.cpp
 
 CMakeFiles/untitled1.dir/Stack_2.cpp.o: ../Stack_2.cpp

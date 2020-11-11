@@ -16,6 +16,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/macbook/CLionProjects/Programmers/Hash_4.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Hash_4.cpp.o"
+  "/Users/macbook/CLionProjects/Programmers/StackQueue4_printer.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/StackQueue4_printer.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/Stack_1.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Stack_1.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/Stack_2.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Stack_2.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/Stack_Queue3.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Stack_Queue3.cpp.o"
