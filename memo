@@ -1,0 +1,35 @@
+segmentation Fault ( core dumped) error의 원인은 주로
+1. 프로그램이 허용되지 않은 메모리 영역에 접근 시도
+
+2. 허용되지 않은 방법으로 메모리 영역에 접근을 시도
+
+이중에서도 코드상에 가장 연관되어 있는 부분이 포인터이다.
+
+C++에서 segfault가 발생하는 상황은 다음과 같다.
+
+1. null 값을 가리키는 포인터에 접근하는 경우
+int* myptr = NULL;
+*myptr = 3;
+
+2. read-only로 표시된 메모리 영역에 쓰려고 할때
+char* myptr = "hello world";
+*myptr = 'h';
+
+3. 더 이상 존재하지 않는 메모리 영역을 가리킬 때
+char* myptr = NULL;
+{
+    char c = '1';
+    myptr = &c;
+}
+*myptr = 'S';
+myptr은 중괄호와 함꼐 존재하지 않게 되었는데 접근했으므로 segfault 발생
+
+********************************************
+
+우선순위 큐를 내림차순으로 나오게 하고 싶다면 greater를 써라
+piority_queue<int, vector<int>, greater<int>> scovilleQueue(scoville.begin(), scoville.end());
+
+********************************************
+
+이터레이터 선언
+vector<int>::iterator it;
