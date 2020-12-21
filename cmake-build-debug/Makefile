@@ -143,6 +143,573 @@ untitled1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/build
 .PHONY : untitled1/fast
 
+BFS.o: BFS.cpp.o
+
+.PHONY : BFS.o
+
+# target to build an object file
+BFS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/BFS.cpp.o
+.PHONY : BFS.cpp.o
+
+BFS.i: BFS.cpp.i
+
+.PHONY : BFS.i
+
+# target to preprocess a source file
+BFS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/BFS.cpp.i
+.PHONY : BFS.cpp.i
+
+BFS.s: BFS.cpp.s
+
+.PHONY : BFS.s
+
+# target to generate assembly for a file
+BFS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/BFS.cpp.s
+.PHONY : BFS.cpp.s
+
+Binary_Search_1.o: Binary_Search_1.cpp.o
+
+.PHONY : Binary_Search_1.o
+
+# target to build an object file
+Binary_Search_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Binary_Search_1.cpp.o
+.PHONY : Binary_Search_1.cpp.o
+
+Binary_Search_1.i: Binary_Search_1.cpp.i
+
+.PHONY : Binary_Search_1.i
+
+# target to preprocess a source file
+Binary_Search_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Binary_Search_1.cpp.i
+.PHONY : Binary_Search_1.cpp.i
+
+Binary_Search_1.s: Binary_Search_1.cpp.s
+
+.PHONY : Binary_Search_1.s
+
+# target to generate assembly for a file
+Binary_Search_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Binary_Search_1.cpp.s
+.PHONY : Binary_Search_1.cpp.s
+
+Binary_Search_2.o: Binary_Search_2.cpp.o
+
+.PHONY : Binary_Search_2.o
+
+# target to build an object file
+Binary_Search_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Binary_Search_2.cpp.o
+.PHONY : Binary_Search_2.cpp.o
+
+Binary_Search_2.i: Binary_Search_2.cpp.i
+
+.PHONY : Binary_Search_2.i
+
+# target to preprocess a source file
+Binary_Search_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Binary_Search_2.cpp.i
+.PHONY : Binary_Search_2.cpp.i
+
+Binary_Search_2.s: Binary_Search_2.cpp.s
+
+.PHONY : Binary_Search_2.s
+
+# target to generate assembly for a file
+Binary_Search_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Binary_Search_2.cpp.s
+.PHONY : Binary_Search_2.cpp.s
+
+DFS.o: DFS.cpp.o
+
+.PHONY : DFS.o
+
+# target to build an object file
+DFS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS.cpp.o
+.PHONY : DFS.cpp.o
+
+DFS.i: DFS.cpp.i
+
+.PHONY : DFS.i
+
+# target to preprocess a source file
+DFS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS.cpp.i
+.PHONY : DFS.cpp.i
+
+DFS.s: DFS.cpp.s
+
+.PHONY : DFS.s
+
+# target to generate assembly for a file
+DFS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS.cpp.s
+.PHONY : DFS.cpp.s
+
+DFS_BFS_1.o: DFS_BFS_1.cpp.o
+
+.PHONY : DFS_BFS_1.o
+
+# target to build an object file
+DFS_BFS_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS_BFS_1.cpp.o
+.PHONY : DFS_BFS_1.cpp.o
+
+DFS_BFS_1.i: DFS_BFS_1.cpp.i
+
+.PHONY : DFS_BFS_1.i
+
+# target to preprocess a source file
+DFS_BFS_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS_BFS_1.cpp.i
+.PHONY : DFS_BFS_1.cpp.i
+
+DFS_BFS_1.s: DFS_BFS_1.cpp.s
+
+.PHONY : DFS_BFS_1.s
+
+# target to generate assembly for a file
+DFS_BFS_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS_BFS_1.cpp.s
+.PHONY : DFS_BFS_1.cpp.s
+
+DFS_BFS_2.o: DFS_BFS_2.cpp.o
+
+.PHONY : DFS_BFS_2.o
+
+# target to build an object file
+DFS_BFS_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS_BFS_2.cpp.o
+.PHONY : DFS_BFS_2.cpp.o
+
+DFS_BFS_2.i: DFS_BFS_2.cpp.i
+
+.PHONY : DFS_BFS_2.i
+
+# target to preprocess a source file
+DFS_BFS_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS_BFS_2.cpp.i
+.PHONY : DFS_BFS_2.cpp.i
+
+DFS_BFS_2.s: DFS_BFS_2.cpp.s
+
+.PHONY : DFS_BFS_2.s
+
+# target to generate assembly for a file
+DFS_BFS_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS_BFS_2.cpp.s
+.PHONY : DFS_BFS_2.cpp.s
+
+DFS_BFS_3.o: DFS_BFS_3.cpp.o
+
+.PHONY : DFS_BFS_3.o
+
+# target to build an object file
+DFS_BFS_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS_BFS_3.cpp.o
+.PHONY : DFS_BFS_3.cpp.o
+
+DFS_BFS_3.i: DFS_BFS_3.cpp.i
+
+.PHONY : DFS_BFS_3.i
+
+# target to preprocess a source file
+DFS_BFS_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS_BFS_3.cpp.i
+.PHONY : DFS_BFS_3.cpp.i
+
+DFS_BFS_3.s: DFS_BFS_3.cpp.s
+
+.PHONY : DFS_BFS_3.s
+
+# target to generate assembly for a file
+DFS_BFS_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS_BFS_3.cpp.s
+.PHONY : DFS_BFS_3.cpp.s
+
+DFS_BFS_4.o: DFS_BFS_4.cpp.o
+
+.PHONY : DFS_BFS_4.o
+
+# target to build an object file
+DFS_BFS_4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS_BFS_4.cpp.o
+.PHONY : DFS_BFS_4.cpp.o
+
+DFS_BFS_4.i: DFS_BFS_4.cpp.i
+
+.PHONY : DFS_BFS_4.i
+
+# target to preprocess a source file
+DFS_BFS_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS_BFS_4.cpp.i
+.PHONY : DFS_BFS_4.cpp.i
+
+DFS_BFS_4.s: DFS_BFS_4.cpp.s
+
+.PHONY : DFS_BFS_4.s
+
+# target to generate assembly for a file
+DFS_BFS_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS_BFS_4.cpp.s
+.PHONY : DFS_BFS_4.cpp.s
+
+Dynamic_Programming_1.o: Dynamic_Programming_1.cpp.o
+
+.PHONY : Dynamic_Programming_1.o
+
+# target to build an object file
+Dynamic_Programming_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Dynamic_Programming_1.cpp.o
+.PHONY : Dynamic_Programming_1.cpp.o
+
+Dynamic_Programming_1.i: Dynamic_Programming_1.cpp.i
+
+.PHONY : Dynamic_Programming_1.i
+
+# target to preprocess a source file
+Dynamic_Programming_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Dynamic_Programming_1.cpp.i
+.PHONY : Dynamic_Programming_1.cpp.i
+
+Dynamic_Programming_1.s: Dynamic_Programming_1.cpp.s
+
+.PHONY : Dynamic_Programming_1.s
+
+# target to generate assembly for a file
+Dynamic_Programming_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Dynamic_Programming_1.cpp.s
+.PHONY : Dynamic_Programming_1.cpp.s
+
+Exhaustive_Search_1.o: Exhaustive_Search_1.cpp.o
+
+.PHONY : Exhaustive_Search_1.o
+
+# target to build an object file
+Exhaustive_Search_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search_1.cpp.o
+.PHONY : Exhaustive_Search_1.cpp.o
+
+Exhaustive_Search_1.i: Exhaustive_Search_1.cpp.i
+
+.PHONY : Exhaustive_Search_1.i
+
+# target to preprocess a source file
+Exhaustive_Search_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search_1.cpp.i
+.PHONY : Exhaustive_Search_1.cpp.i
+
+Exhaustive_Search_1.s: Exhaustive_Search_1.cpp.s
+
+.PHONY : Exhaustive_Search_1.s
+
+# target to generate assembly for a file
+Exhaustive_Search_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search_1.cpp.s
+.PHONY : Exhaustive_Search_1.cpp.s
+
+Exhaustive_Search_2.o: Exhaustive_Search_2.cpp.o
+
+.PHONY : Exhaustive_Search_2.o
+
+# target to build an object file
+Exhaustive_Search_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search_2.cpp.o
+.PHONY : Exhaustive_Search_2.cpp.o
+
+Exhaustive_Search_2.i: Exhaustive_Search_2.cpp.i
+
+.PHONY : Exhaustive_Search_2.i
+
+# target to preprocess a source file
+Exhaustive_Search_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search_2.cpp.i
+.PHONY : Exhaustive_Search_2.cpp.i
+
+Exhaustive_Search_2.s: Exhaustive_Search_2.cpp.s
+
+.PHONY : Exhaustive_Search_2.s
+
+# target to generate assembly for a file
+Exhaustive_Search_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search_2.cpp.s
+.PHONY : Exhaustive_Search_2.cpp.s
+
+Exhaustive_Search_3.o: Exhaustive_Search_3.cpp.o
+
+.PHONY : Exhaustive_Search_3.o
+
+# target to build an object file
+Exhaustive_Search_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search_3.cpp.o
+.PHONY : Exhaustive_Search_3.cpp.o
+
+Exhaustive_Search_3.i: Exhaustive_Search_3.cpp.i
+
+.PHONY : Exhaustive_Search_3.i
+
+# target to preprocess a source file
+Exhaustive_Search_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search_3.cpp.i
+.PHONY : Exhaustive_Search_3.cpp.i
+
+Exhaustive_Search_3.s: Exhaustive_Search_3.cpp.s
+
+.PHONY : Exhaustive_Search_3.s
+
+# target to generate assembly for a file
+Exhaustive_Search_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search_3.cpp.s
+.PHONY : Exhaustive_Search_3.cpp.s
+
+Graph_1.o: Graph_1.cpp.o
+
+.PHONY : Graph_1.o
+
+# target to build an object file
+Graph_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Graph_1.cpp.o
+.PHONY : Graph_1.cpp.o
+
+Graph_1.i: Graph_1.cpp.i
+
+.PHONY : Graph_1.i
+
+# target to preprocess a source file
+Graph_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Graph_1.cpp.i
+.PHONY : Graph_1.cpp.i
+
+Graph_1.s: Graph_1.cpp.s
+
+.PHONY : Graph_1.s
+
+# target to generate assembly for a file
+Graph_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Graph_1.cpp.s
+.PHONY : Graph_1.cpp.s
+
+Graph_2.o: Graph_2.cpp.o
+
+.PHONY : Graph_2.o
+
+# target to build an object file
+Graph_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Graph_2.cpp.o
+.PHONY : Graph_2.cpp.o
+
+Graph_2.i: Graph_2.cpp.i
+
+.PHONY : Graph_2.i
+
+# target to preprocess a source file
+Graph_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Graph_2.cpp.i
+.PHONY : Graph_2.cpp.i
+
+Graph_2.s: Graph_2.cpp.s
+
+.PHONY : Graph_2.s
+
+# target to generate assembly for a file
+Graph_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Graph_2.cpp.s
+.PHONY : Graph_2.cpp.s
+
+Graph_3.o: Graph_3.cpp.o
+
+.PHONY : Graph_3.o
+
+# target to build an object file
+Graph_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Graph_3.cpp.o
+.PHONY : Graph_3.cpp.o
+
+Graph_3.i: Graph_3.cpp.i
+
+.PHONY : Graph_3.i
+
+# target to preprocess a source file
+Graph_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Graph_3.cpp.i
+.PHONY : Graph_3.cpp.i
+
+Graph_3.s: Graph_3.cpp.s
+
+.PHONY : Graph_3.s
+
+# target to generate assembly for a file
+Graph_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Graph_3.cpp.s
+.PHONY : Graph_3.cpp.s
+
+Greedy_1.o: Greedy_1.cpp.o
+
+.PHONY : Greedy_1.o
+
+# target to build an object file
+Greedy_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_1.cpp.o
+.PHONY : Greedy_1.cpp.o
+
+Greedy_1.i: Greedy_1.cpp.i
+
+.PHONY : Greedy_1.i
+
+# target to preprocess a source file
+Greedy_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_1.cpp.i
+.PHONY : Greedy_1.cpp.i
+
+Greedy_1.s: Greedy_1.cpp.s
+
+.PHONY : Greedy_1.s
+
+# target to generate assembly for a file
+Greedy_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_1.cpp.s
+.PHONY : Greedy_1.cpp.s
+
+Greedy_2.o: Greedy_2.cpp.o
+
+.PHONY : Greedy_2.o
+
+# target to build an object file
+Greedy_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_2.cpp.o
+.PHONY : Greedy_2.cpp.o
+
+Greedy_2.i: Greedy_2.cpp.i
+
+.PHONY : Greedy_2.i
+
+# target to preprocess a source file
+Greedy_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_2.cpp.i
+.PHONY : Greedy_2.cpp.i
+
+Greedy_2.s: Greedy_2.cpp.s
+
+.PHONY : Greedy_2.s
+
+# target to generate assembly for a file
+Greedy_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_2.cpp.s
+.PHONY : Greedy_2.cpp.s
+
+Greedy_3.o: Greedy_3.cpp.o
+
+.PHONY : Greedy_3.o
+
+# target to build an object file
+Greedy_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_3.cpp.o
+.PHONY : Greedy_3.cpp.o
+
+Greedy_3.i: Greedy_3.cpp.i
+
+.PHONY : Greedy_3.i
+
+# target to preprocess a source file
+Greedy_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_3.cpp.i
+.PHONY : Greedy_3.cpp.i
+
+Greedy_3.s: Greedy_3.cpp.s
+
+.PHONY : Greedy_3.s
+
+# target to generate assembly for a file
+Greedy_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_3.cpp.s
+.PHONY : Greedy_3.cpp.s
+
+Greedy_4.o: Greedy_4.cpp.o
+
+.PHONY : Greedy_4.o
+
+# target to build an object file
+Greedy_4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_4.cpp.o
+.PHONY : Greedy_4.cpp.o
+
+Greedy_4.i: Greedy_4.cpp.i
+
+.PHONY : Greedy_4.i
+
+# target to preprocess a source file
+Greedy_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_4.cpp.i
+.PHONY : Greedy_4.cpp.i
+
+Greedy_4.s: Greedy_4.cpp.s
+
+.PHONY : Greedy_4.s
+
+# target to generate assembly for a file
+Greedy_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_4.cpp.s
+.PHONY : Greedy_4.cpp.s
+
+Greedy_5.o: Greedy_5.cpp.o
+
+.PHONY : Greedy_5.o
+
+# target to build an object file
+Greedy_5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_5.cpp.o
+.PHONY : Greedy_5.cpp.o
+
+Greedy_5.i: Greedy_5.cpp.i
+
+.PHONY : Greedy_5.i
+
+# target to preprocess a source file
+Greedy_5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_5.cpp.i
+.PHONY : Greedy_5.cpp.i
+
+Greedy_5.s: Greedy_5.cpp.s
+
+.PHONY : Greedy_5.s
+
+# target to generate assembly for a file
+Greedy_5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_5.cpp.s
+.PHONY : Greedy_5.cpp.s
+
+Greedy_6.o: Greedy_6.cpp.o
+
+.PHONY : Greedy_6.o
+
+# target to build an object file
+Greedy_6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_6.cpp.o
+.PHONY : Greedy_6.cpp.o
+
+Greedy_6.i: Greedy_6.cpp.i
+
+.PHONY : Greedy_6.i
+
+# target to preprocess a source file
+Greedy_6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_6.cpp.i
+.PHONY : Greedy_6.cpp.i
+
+Greedy_6.s: Greedy_6.cpp.s
+
+.PHONY : Greedy_6.s
+
+# target to generate assembly for a file
+Greedy_6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_6.cpp.s
+.PHONY : Greedy_6.cpp.s
+
 Hash_4.o: Hash_4.cpp.o
 
 .PHONY : Hash_4.o
@@ -169,6 +736,222 @@ Hash_4.s: Hash_4.cpp.s
 Hash_4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hash_4.cpp.s
 .PHONY : Hash_4.cpp.s
+
+Hip_1.o: Hip_1.cpp.o
+
+.PHONY : Hip_1.o
+
+# target to build an object file
+Hip_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hip_1.cpp.o
+.PHONY : Hip_1.cpp.o
+
+Hip_1.i: Hip_1.cpp.i
+
+.PHONY : Hip_1.i
+
+# target to preprocess a source file
+Hip_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hip_1.cpp.i
+.PHONY : Hip_1.cpp.i
+
+Hip_1.s: Hip_1.cpp.s
+
+.PHONY : Hip_1.s
+
+# target to generate assembly for a file
+Hip_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hip_1.cpp.s
+.PHONY : Hip_1.cpp.s
+
+Hip_2.o: Hip_2.cpp.o
+
+.PHONY : Hip_2.o
+
+# target to build an object file
+Hip_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hip_2.cpp.o
+.PHONY : Hip_2.cpp.o
+
+Hip_2.i: Hip_2.cpp.i
+
+.PHONY : Hip_2.i
+
+# target to preprocess a source file
+Hip_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hip_2.cpp.i
+.PHONY : Hip_2.cpp.i
+
+Hip_2.s: Hip_2.cpp.s
+
+.PHONY : Hip_2.s
+
+# target to generate assembly for a file
+Hip_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hip_2.cpp.s
+.PHONY : Hip_2.cpp.s
+
+Hip_3.o: Hip_3.cpp.o
+
+.PHONY : Hip_3.o
+
+# target to build an object file
+Hip_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hip_3.cpp.o
+.PHONY : Hip_3.cpp.o
+
+Hip_3.i: Hip_3.cpp.i
+
+.PHONY : Hip_3.i
+
+# target to preprocess a source file
+Hip_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hip_3.cpp.i
+.PHONY : Hip_3.cpp.i
+
+Hip_3.s: Hip_3.cpp.s
+
+.PHONY : Hip_3.s
+
+# target to generate assembly for a file
+Hip_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hip_3.cpp.s
+.PHONY : Hip_3.cpp.s
+
+Level2_2.o: Level2_2.cpp.o
+
+.PHONY : Level2_2.o
+
+# target to build an object file
+Level2_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Level2_2.cpp.o
+.PHONY : Level2_2.cpp.o
+
+Level2_2.i: Level2_2.cpp.i
+
+.PHONY : Level2_2.i
+
+# target to preprocess a source file
+Level2_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Level2_2.cpp.i
+.PHONY : Level2_2.cpp.i
+
+Level2_2.s: Level2_2.cpp.s
+
+.PHONY : Level2_2.s
+
+# target to generate assembly for a file
+Level2_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Level2_2.cpp.s
+.PHONY : Level2_2.cpp.s
+
+Lever2_1.o: Lever2_1.cpp.o
+
+.PHONY : Lever2_1.o
+
+# target to build an object file
+Lever2_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Lever2_1.cpp.o
+.PHONY : Lever2_1.cpp.o
+
+Lever2_1.i: Lever2_1.cpp.i
+
+.PHONY : Lever2_1.i
+
+# target to preprocess a source file
+Lever2_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Lever2_1.cpp.i
+.PHONY : Lever2_1.cpp.i
+
+Lever2_1.s: Lever2_1.cpp.s
+
+.PHONY : Lever2_1.s
+
+# target to generate assembly for a file
+Lever2_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Lever2_1.cpp.s
+.PHONY : Lever2_1.cpp.s
+
+Sort_1.o: Sort_1.cpp.o
+
+.PHONY : Sort_1.o
+
+# target to build an object file
+Sort_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Sort_1.cpp.o
+.PHONY : Sort_1.cpp.o
+
+Sort_1.i: Sort_1.cpp.i
+
+.PHONY : Sort_1.i
+
+# target to preprocess a source file
+Sort_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Sort_1.cpp.i
+.PHONY : Sort_1.cpp.i
+
+Sort_1.s: Sort_1.cpp.s
+
+.PHONY : Sort_1.s
+
+# target to generate assembly for a file
+Sort_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Sort_1.cpp.s
+.PHONY : Sort_1.cpp.s
+
+Sort_2.o: Sort_2.cpp.o
+
+.PHONY : Sort_2.o
+
+# target to build an object file
+Sort_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Sort_2.cpp.o
+.PHONY : Sort_2.cpp.o
+
+Sort_2.i: Sort_2.cpp.i
+
+.PHONY : Sort_2.i
+
+# target to preprocess a source file
+Sort_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Sort_2.cpp.i
+.PHONY : Sort_2.cpp.i
+
+Sort_2.s: Sort_2.cpp.s
+
+.PHONY : Sort_2.s
+
+# target to generate assembly for a file
+Sort_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Sort_2.cpp.s
+.PHONY : Sort_2.cpp.s
+
+Sort_3.o: Sort_3.cpp.o
+
+.PHONY : Sort_3.o
+
+# target to build an object file
+Sort_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Sort_3.cpp.o
+.PHONY : Sort_3.cpp.o
+
+Sort_3.i: Sort_3.cpp.i
+
+.PHONY : Sort_3.i
+
+# target to preprocess a source file
+Sort_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Sort_3.cpp.i
+.PHONY : Sort_3.cpp.i
+
+Sort_3.s: Sort_3.cpp.s
+
+.PHONY : Sort_3.s
+
+# target to generate assembly for a file
+Sort_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Sort_3.cpp.s
+.PHONY : Sort_3.cpp.s
 
 StackQueue4_printer.o: StackQueue4_printer.cpp.o
 
@@ -278,86 +1061,86 @@ Stack_Queue3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Stack_Queue3.cpp.s
 .PHONY : Stack_Queue3.cpp.s
 
-main.o: main.c.o
+binary_search.o: binary_search.cpp.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.c.s
-.PHONY : main.c.s
-
-num4.o: num4.c.o
-
-.PHONY : num4.o
+.PHONY : binary_search.o
 
 # target to build an object file
-num4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/num4.c.o
-.PHONY : num4.c.o
+binary_search.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/binary_search.cpp.o
+.PHONY : binary_search.cpp.o
 
-num4.i: num4.c.i
+binary_search.i: binary_search.cpp.i
 
-.PHONY : num4.i
+.PHONY : binary_search.i
 
 # target to preprocess a source file
-num4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/num4.c.i
-.PHONY : num4.c.i
+binary_search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/binary_search.cpp.i
+.PHONY : binary_search.cpp.i
 
-num4.s: num4.c.s
+binary_search.s: binary_search.cpp.s
 
-.PHONY : num4.s
+.PHONY : binary_search.s
 
 # target to generate assembly for a file
-num4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/num4.c.s
-.PHONY : num4.c.s
+binary_search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/binary_search.cpp.s
+.PHONY : binary_search.cpp.s
 
-test.o: test.c.o
+floyd_warshall.o: floyd_warshall.cpp.o
+
+.PHONY : floyd_warshall.o
+
+# target to build an object file
+floyd_warshall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/floyd_warshall.cpp.o
+.PHONY : floyd_warshall.cpp.o
+
+floyd_warshall.i: floyd_warshall.cpp.i
+
+.PHONY : floyd_warshall.i
+
+# target to preprocess a source file
+floyd_warshall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/floyd_warshall.cpp.i
+.PHONY : floyd_warshall.cpp.i
+
+floyd_warshall.s: floyd_warshall.cpp.s
+
+.PHONY : floyd_warshall.s
+
+# target to generate assembly for a file
+floyd_warshall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/floyd_warshall.cpp.s
+.PHONY : floyd_warshall.cpp.s
+
+test.o: test.cpp.o
 
 .PHONY : test.o
 
 # target to build an object file
-test.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/test.c.o
-.PHONY : test.c.o
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/test.cpp.o
+.PHONY : test.cpp.o
 
-test.i: test.c.i
+test.i: test.cpp.i
 
 .PHONY : test.i
 
 # target to preprocess a source file
-test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/test.c.i
-.PHONY : test.c.i
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-test.s: test.c.s
+test.s: test.cpp.s
 
 .PHONY : test.s
 
 # target to generate assembly for a file
-test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/test.c.s
-.PHONY : test.c.s
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -368,9 +1151,96 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled1"
+	@echo "... BFS.o"
+	@echo "... BFS.i"
+	@echo "... BFS.s"
+	@echo "... Binary_Search_1.o"
+	@echo "... Binary_Search_1.i"
+	@echo "... Binary_Search_1.s"
+	@echo "... Binary_Search_2.o"
+	@echo "... Binary_Search_2.i"
+	@echo "... Binary_Search_2.s"
+	@echo "... DFS.o"
+	@echo "... DFS.i"
+	@echo "... DFS.s"
+	@echo "... DFS_BFS_1.o"
+	@echo "... DFS_BFS_1.i"
+	@echo "... DFS_BFS_1.s"
+	@echo "... DFS_BFS_2.o"
+	@echo "... DFS_BFS_2.i"
+	@echo "... DFS_BFS_2.s"
+	@echo "... DFS_BFS_3.o"
+	@echo "... DFS_BFS_3.i"
+	@echo "... DFS_BFS_3.s"
+	@echo "... DFS_BFS_4.o"
+	@echo "... DFS_BFS_4.i"
+	@echo "... DFS_BFS_4.s"
+	@echo "... Dynamic_Programming_1.o"
+	@echo "... Dynamic_Programming_1.i"
+	@echo "... Dynamic_Programming_1.s"
+	@echo "... Exhaustive_Search_1.o"
+	@echo "... Exhaustive_Search_1.i"
+	@echo "... Exhaustive_Search_1.s"
+	@echo "... Exhaustive_Search_2.o"
+	@echo "... Exhaustive_Search_2.i"
+	@echo "... Exhaustive_Search_2.s"
+	@echo "... Exhaustive_Search_3.o"
+	@echo "... Exhaustive_Search_3.i"
+	@echo "... Exhaustive_Search_3.s"
+	@echo "... Graph_1.o"
+	@echo "... Graph_1.i"
+	@echo "... Graph_1.s"
+	@echo "... Graph_2.o"
+	@echo "... Graph_2.i"
+	@echo "... Graph_2.s"
+	@echo "... Graph_3.o"
+	@echo "... Graph_3.i"
+	@echo "... Graph_3.s"
+	@echo "... Greedy_1.o"
+	@echo "... Greedy_1.i"
+	@echo "... Greedy_1.s"
+	@echo "... Greedy_2.o"
+	@echo "... Greedy_2.i"
+	@echo "... Greedy_2.s"
+	@echo "... Greedy_3.o"
+	@echo "... Greedy_3.i"
+	@echo "... Greedy_3.s"
+	@echo "... Greedy_4.o"
+	@echo "... Greedy_4.i"
+	@echo "... Greedy_4.s"
+	@echo "... Greedy_5.o"
+	@echo "... Greedy_5.i"
+	@echo "... Greedy_5.s"
+	@echo "... Greedy_6.o"
+	@echo "... Greedy_6.i"
+	@echo "... Greedy_6.s"
 	@echo "... Hash_4.o"
 	@echo "... Hash_4.i"
 	@echo "... Hash_4.s"
+	@echo "... Hip_1.o"
+	@echo "... Hip_1.i"
+	@echo "... Hip_1.s"
+	@echo "... Hip_2.o"
+	@echo "... Hip_2.i"
+	@echo "... Hip_2.s"
+	@echo "... Hip_3.o"
+	@echo "... Hip_3.i"
+	@echo "... Hip_3.s"
+	@echo "... Level2_2.o"
+	@echo "... Level2_2.i"
+	@echo "... Level2_2.s"
+	@echo "... Lever2_1.o"
+	@echo "... Lever2_1.i"
+	@echo "... Lever2_1.s"
+	@echo "... Sort_1.o"
+	@echo "... Sort_1.i"
+	@echo "... Sort_1.s"
+	@echo "... Sort_2.o"
+	@echo "... Sort_2.i"
+	@echo "... Sort_2.s"
+	@echo "... Sort_3.o"
+	@echo "... Sort_3.i"
+	@echo "... Sort_3.s"
 	@echo "... StackQueue4_printer.o"
 	@echo "... StackQueue4_printer.i"
 	@echo "... StackQueue4_printer.s"
@@ -383,12 +1253,12 @@ help:
 	@echo "... Stack_Queue3.o"
 	@echo "... Stack_Queue3.i"
 	@echo "... Stack_Queue3.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... num4.o"
-	@echo "... num4.i"
-	@echo "... num4.s"
+	@echo "... binary_search.o"
+	@echo "... binary_search.i"
+	@echo "... binary_search.s"
+	@echo "... floyd_warshall.o"
+	@echo "... floyd_warshall.i"
+	@echo "... floyd_warshall.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

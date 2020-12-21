@@ -80,7 +80,94 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/BFS.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Binary_Search_1.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Binary_Search_2.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/DFS.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/DFS_BFS_1.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/DFS_BFS_2.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/DFS_BFS_3.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/DFS_BFS_4.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Dynamic_Programming_1.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Exhaustive_Search_1.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Exhaustive_Search_2.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Exhaustive_Search_3.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Graph_1.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Graph_2.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Graph_3.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Greedy_1.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Greedy_2.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Greedy_3.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Greedy_4.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Greedy_5.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Greedy_6.cpp">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="/Users/macbook/CLionProjects/Programmers/Hash_4.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Hip_1.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Hip_2.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Hip_3.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Level2_2.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Lever2_1.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Sort_1.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Sort_2.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/Sort_3.cpp">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/Users/macbook/CLionProjects/Programmers/StackQueue4_printer.cpp">
@@ -95,13 +182,13 @@
 		<Unit filename="/Users/macbook/CLionProjects/Programmers/Stack_Queue3.cpp">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="/Users/macbook/CLionProjects/Programmers/main.c">
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/binary_search.cpp">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="/Users/macbook/CLionProjects/Programmers/num4.c">
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/floyd_warshall.cpp">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="/Users/macbook/CLionProjects/Programmers/test.c">
+		<Unit filename="/Users/macbook/CLionProjects/Programmers/test.cpp">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/Users/macbook/CLionProjects/Programmers/CMakeLists.txt">

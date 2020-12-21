@@ -7,7 +7,23 @@
 #include <iostream>
 
 using namespace std;
-int maxPriorities(queue<int> priorities){
+
+int solution(vector<int> priorities, int location) {
+    int answer = 0;
+
+    return answer;
+}
+
+int main(){
+    vector<int> priorities = {4,2,1,3,8,7};
+    int location = 3;
+
+    cout << solution(priorities,location) << endl;
+
+}
+/*
+ *
+ * int maxPriorities(queue<int> priorities){
     int max = 0;
     int size = priorities.size();
     for(int i=0;i<size;i++) {
@@ -49,10 +65,4 @@ int solution(vector<int> priorities, int location) {
     return answer;
 }
 
-int main(){
-    vector<int> priorities = {4,2,1,3,8,7};
-    int location = 3;
-
-    cout << solution(priorities,location) << endl;
-
-}
+ */

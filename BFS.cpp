@@ -36,7 +36,7 @@
 //
 //    vector<int> graph[n+1];
 //
-//    bool check[n+1];
+//    c;
 //    fill(check,check+n+1,false);
 //
 //    for(int i=0;i<m;i++){
