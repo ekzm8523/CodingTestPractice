@@ -35,8 +35,7 @@
 //    cin >> n >> m >> start;
 //
 //    vector<int> graph[n+1];
-//
-//    c;
+//    bool check[n+1];
 //    fill(check,check+n+1,false);
 //
 //    for(int i=0;i<m;i++){

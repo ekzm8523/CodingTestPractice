@@ -251,6 +251,33 @@ DFS.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/DFS.cpp.s
 .PHONY : DFS.cpp.s
 
+DFS_BFS_1(2).o: DFS_BFS_1(2).cpp.o
+
+.PHONY : DFS_BFS_1(2).o
+
+# target to build an object file
+DFS_BFS_1(2).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/DFS_BFS_1(2).cpp.o"
+.PHONY : DFS_BFS_1(2).cpp.o
+
+DFS_BFS_1(2).i: DFS_BFS_1(2).cpp.i
+
+.PHONY : DFS_BFS_1(2).i
+
+# target to preprocess a source file
+DFS_BFS_1(2).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/DFS_BFS_1(2).cpp.i"
+.PHONY : DFS_BFS_1(2).cpp.i
+
+DFS_BFS_1(2).s: DFS_BFS_1(2).cpp.s
+
+.PHONY : DFS_BFS_1(2).s
+
+# target to generate assembly for a file
+DFS_BFS_1(2).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/DFS_BFS_1(2).cpp.s"
+.PHONY : DFS_BFS_1(2).cpp.s
+
 DFS_BFS_1.o: DFS_BFS_1.cpp.o
 
 .PHONY : DFS_BFS_1.o
@@ -386,6 +413,60 @@ Dynamic_Programming_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Dynamic_Programming_1.cpp.s
 .PHONY : Dynamic_Programming_1.cpp.s
 
+Exhaustive_Search.o: Exhaustive_Search.cpp.o
+
+.PHONY : Exhaustive_Search.o
+
+# target to build an object file
+Exhaustive_Search.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search.cpp.o
+.PHONY : Exhaustive_Search.cpp.o
+
+Exhaustive_Search.i: Exhaustive_Search.cpp.i
+
+.PHONY : Exhaustive_Search.i
+
+# target to preprocess a source file
+Exhaustive_Search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search.cpp.i
+.PHONY : Exhaustive_Search.cpp.i
+
+Exhaustive_Search.s: Exhaustive_Search.cpp.s
+
+.PHONY : Exhaustive_Search.s
+
+# target to generate assembly for a file
+Exhaustive_Search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search.cpp.s
+.PHONY : Exhaustive_Search.cpp.s
+
+Exhaustive_Search_1(1).o: Exhaustive_Search_1(1).cpp.o
+
+.PHONY : Exhaustive_Search_1(1).o
+
+# target to build an object file
+Exhaustive_Search_1(1).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Exhaustive_Search_1(1).cpp.o"
+.PHONY : Exhaustive_Search_1(1).cpp.o
+
+Exhaustive_Search_1(1).i: Exhaustive_Search_1(1).cpp.i
+
+.PHONY : Exhaustive_Search_1(1).i
+
+# target to preprocess a source file
+Exhaustive_Search_1(1).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Exhaustive_Search_1(1).cpp.i"
+.PHONY : Exhaustive_Search_1(1).cpp.i
+
+Exhaustive_Search_1(1).s: Exhaustive_Search_1(1).cpp.s
+
+.PHONY : Exhaustive_Search_1(1).s
+
+# target to generate assembly for a file
+Exhaustive_Search_1(1).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Exhaustive_Search_1(1).cpp.s"
+.PHONY : Exhaustive_Search_1(1).cpp.s
+
 Exhaustive_Search_1.o: Exhaustive_Search_1.cpp.o
 
 .PHONY : Exhaustive_Search_1.o
@@ -413,6 +494,33 @@ Exhaustive_Search_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search_1.cpp.s
 .PHONY : Exhaustive_Search_1.cpp.s
 
+Exhaustive_Search_2(2).o: Exhaustive_Search_2(2).cpp.o
+
+.PHONY : Exhaustive_Search_2(2).o
+
+# target to build an object file
+Exhaustive_Search_2(2).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Exhaustive_Search_2(2).cpp.o"
+.PHONY : Exhaustive_Search_2(2).cpp.o
+
+Exhaustive_Search_2(2).i: Exhaustive_Search_2(2).cpp.i
+
+.PHONY : Exhaustive_Search_2(2).i
+
+# target to preprocess a source file
+Exhaustive_Search_2(2).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Exhaustive_Search_2(2).cpp.i"
+.PHONY : Exhaustive_Search_2(2).cpp.i
+
+Exhaustive_Search_2(2).s: Exhaustive_Search_2(2).cpp.s
+
+.PHONY : Exhaustive_Search_2(2).s
+
+# target to generate assembly for a file
+Exhaustive_Search_2(2).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Exhaustive_Search_2(2).cpp.s"
+.PHONY : Exhaustive_Search_2(2).cpp.s
+
 Exhaustive_Search_2.o: Exhaustive_Search_2.cpp.o
 
 .PHONY : Exhaustive_Search_2.o
@@ -439,6 +547,33 @@ Exhaustive_Search_2.s: Exhaustive_Search_2.cpp.s
 Exhaustive_Search_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Exhaustive_Search_2.cpp.s
 .PHONY : Exhaustive_Search_2.cpp.s
+
+Exhaustive_Search_3(2).o: Exhaustive_Search_3(2).cpp.o
+
+.PHONY : Exhaustive_Search_3(2).o
+
+# target to build an object file
+Exhaustive_Search_3(2).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Exhaustive_Search_3(2).cpp.o"
+.PHONY : Exhaustive_Search_3(2).cpp.o
+
+Exhaustive_Search_3(2).i: Exhaustive_Search_3(2).cpp.i
+
+.PHONY : Exhaustive_Search_3(2).i
+
+# target to preprocess a source file
+Exhaustive_Search_3(2).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Exhaustive_Search_3(2).cpp.i"
+.PHONY : Exhaustive_Search_3(2).cpp.i
+
+Exhaustive_Search_3(2).s: Exhaustive_Search_3(2).cpp.s
+
+.PHONY : Exhaustive_Search_3(2).s
+
+# target to generate assembly for a file
+Exhaustive_Search_3(2).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Exhaustive_Search_3(2).cpp.s"
+.PHONY : Exhaustive_Search_3(2).cpp.s
 
 Exhaustive_Search_3.o: Exhaustive_Search_3.cpp.o
 
@@ -710,6 +845,87 @@ Greedy_6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_6.cpp.s
 .PHONY : Greedy_6.cpp.s
 
+Hash_1.o: Hash_1.cpp.o
+
+.PHONY : Hash_1.o
+
+# target to build an object file
+Hash_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hash_1.cpp.o
+.PHONY : Hash_1.cpp.o
+
+Hash_1.i: Hash_1.cpp.i
+
+.PHONY : Hash_1.i
+
+# target to preprocess a source file
+Hash_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hash_1.cpp.i
+.PHONY : Hash_1.cpp.i
+
+Hash_1.s: Hash_1.cpp.s
+
+.PHONY : Hash_1.s
+
+# target to generate assembly for a file
+Hash_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hash_1.cpp.s
+.PHONY : Hash_1.cpp.s
+
+Hash_2.o: Hash_2.cpp.o
+
+.PHONY : Hash_2.o
+
+# target to build an object file
+Hash_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hash_2.cpp.o
+.PHONY : Hash_2.cpp.o
+
+Hash_2.i: Hash_2.cpp.i
+
+.PHONY : Hash_2.i
+
+# target to preprocess a source file
+Hash_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hash_2.cpp.i
+.PHONY : Hash_2.cpp.i
+
+Hash_2.s: Hash_2.cpp.s
+
+.PHONY : Hash_2.s
+
+# target to generate assembly for a file
+Hash_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hash_2.cpp.s
+.PHONY : Hash_2.cpp.s
+
+Hash_3.o: Hash_3.cpp.o
+
+.PHONY : Hash_3.o
+
+# target to build an object file
+Hash_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hash_3.cpp.o
+.PHONY : Hash_3.cpp.o
+
+Hash_3.i: Hash_3.cpp.i
+
+.PHONY : Hash_3.i
+
+# target to preprocess a source file
+Hash_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hash_3.cpp.i
+.PHONY : Hash_3.cpp.i
+
+Hash_3.s: Hash_3.cpp.s
+
+.PHONY : Hash_3.s
+
+# target to generate assembly for a file
+Hash_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hash_3.cpp.s
+.PHONY : Hash_3.cpp.s
+
 Hash_4.o: Hash_4.cpp.o
 
 .PHONY : Hash_4.o
@@ -872,6 +1088,33 @@ Lever2_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Lever2_1.cpp.s
 .PHONY : Lever2_1.cpp.s
 
+Sort_1(2).o: Sort_1(2).cpp.o
+
+.PHONY : Sort_1(2).o
+
+# target to build an object file
+Sort_1(2).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Sort_1(2).cpp.o"
+.PHONY : Sort_1(2).cpp.o
+
+Sort_1(2).i: Sort_1(2).cpp.i
+
+.PHONY : Sort_1(2).i
+
+# target to preprocess a source file
+Sort_1(2).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Sort_1(2).cpp.i"
+.PHONY : Sort_1(2).cpp.i
+
+Sort_1(2).s: Sort_1(2).cpp.s
+
+.PHONY : Sort_1(2).s
+
+# target to generate assembly for a file
+Sort_1(2).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Sort_1(2).cpp.s"
+.PHONY : Sort_1(2).cpp.s
+
 Sort_1.o: Sort_1.cpp.o
 
 .PHONY : Sort_1.o
@@ -899,6 +1142,33 @@ Sort_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Sort_1.cpp.s
 .PHONY : Sort_1.cpp.s
 
+Sort_2(2).o: Sort_2(2).cpp.o
+
+.PHONY : Sort_2(2).o
+
+# target to build an object file
+Sort_2(2).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Sort_2(2).cpp.o"
+.PHONY : Sort_2(2).cpp.o
+
+Sort_2(2).i: Sort_2(2).cpp.i
+
+.PHONY : Sort_2(2).i
+
+# target to preprocess a source file
+Sort_2(2).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Sort_2(2).cpp.i"
+.PHONY : Sort_2(2).cpp.i
+
+Sort_2(2).s: Sort_2(2).cpp.s
+
+.PHONY : Sort_2(2).s
+
+# target to generate assembly for a file
+Sort_2(2).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Sort_2(2).cpp.s"
+.PHONY : Sort_2(2).cpp.s
+
 Sort_2.o: Sort_2.cpp.o
 
 .PHONY : Sort_2.o
@@ -925,6 +1195,33 @@ Sort_2.s: Sort_2.cpp.s
 Sort_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Sort_2.cpp.s
 .PHONY : Sort_2.cpp.s
+
+Sort_3(2).o: Sort_3(2).cpp.o
+
+.PHONY : Sort_3(2).o
+
+# target to build an object file
+Sort_3(2).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Sort_3(2).cpp.o"
+.PHONY : Sort_3(2).cpp.o
+
+Sort_3(2).i: Sort_3(2).cpp.i
+
+.PHONY : Sort_3(2).i
+
+# target to preprocess a source file
+Sort_3(2).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Sort_3(2).cpp.i"
+.PHONY : Sort_3(2).cpp.i
+
+Sort_3(2).s: Sort_3(2).cpp.s
+
+.PHONY : Sort_3(2).s
+
+# target to generate assembly for a file
+Sort_3(2).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Sort_3(2).cpp.s"
+.PHONY : Sort_3(2).cpp.s
 
 Sort_3.o: Sort_3.cpp.o
 
@@ -1163,6 +1460,9 @@ help:
 	@echo "... DFS.o"
 	@echo "... DFS.i"
 	@echo "... DFS.s"
+	@echo "... DFS_BFS_1(2).o"
+	@echo "... DFS_BFS_1(2).i"
+	@echo "... DFS_BFS_1(2).s"
 	@echo "... DFS_BFS_1.o"
 	@echo "... DFS_BFS_1.i"
 	@echo "... DFS_BFS_1.s"
@@ -1178,12 +1478,24 @@ help:
 	@echo "... Dynamic_Programming_1.o"
 	@echo "... Dynamic_Programming_1.i"
 	@echo "... Dynamic_Programming_1.s"
+	@echo "... Exhaustive_Search.o"
+	@echo "... Exhaustive_Search.i"
+	@echo "... Exhaustive_Search.s"
+	@echo "... Exhaustive_Search_1(1).o"
+	@echo "... Exhaustive_Search_1(1).i"
+	@echo "... Exhaustive_Search_1(1).s"
 	@echo "... Exhaustive_Search_1.o"
 	@echo "... Exhaustive_Search_1.i"
 	@echo "... Exhaustive_Search_1.s"
+	@echo "... Exhaustive_Search_2(2).o"
+	@echo "... Exhaustive_Search_2(2).i"
+	@echo "... Exhaustive_Search_2(2).s"
 	@echo "... Exhaustive_Search_2.o"
 	@echo "... Exhaustive_Search_2.i"
 	@echo "... Exhaustive_Search_2.s"
+	@echo "... Exhaustive_Search_3(2).o"
+	@echo "... Exhaustive_Search_3(2).i"
+	@echo "... Exhaustive_Search_3(2).s"
 	@echo "... Exhaustive_Search_3.o"
 	@echo "... Exhaustive_Search_3.i"
 	@echo "... Exhaustive_Search_3.s"
@@ -1214,6 +1526,15 @@ help:
 	@echo "... Greedy_6.o"
 	@echo "... Greedy_6.i"
 	@echo "... Greedy_6.s"
+	@echo "... Hash_1.o"
+	@echo "... Hash_1.i"
+	@echo "... Hash_1.s"
+	@echo "... Hash_2.o"
+	@echo "... Hash_2.i"
+	@echo "... Hash_2.s"
+	@echo "... Hash_3.o"
+	@echo "... Hash_3.i"
+	@echo "... Hash_3.s"
 	@echo "... Hash_4.o"
 	@echo "... Hash_4.i"
 	@echo "... Hash_4.s"
@@ -1232,12 +1553,21 @@ help:
 	@echo "... Lever2_1.o"
 	@echo "... Lever2_1.i"
 	@echo "... Lever2_1.s"
+	@echo "... Sort_1(2).o"
+	@echo "... Sort_1(2).i"
+	@echo "... Sort_1(2).s"
 	@echo "... Sort_1.o"
 	@echo "... Sort_1.i"
 	@echo "... Sort_1.s"
+	@echo "... Sort_2(2).o"
+	@echo "... Sort_2(2).i"
+	@echo "... Sort_2(2).s"
 	@echo "... Sort_2.o"
 	@echo "... Sort_2.i"
 	@echo "... Sort_2.s"
+	@echo "... Sort_3(2).o"
+	@echo "... Sort_3(2).i"
+	@echo "... Sort_3(2).s"
 	@echo "... Sort_3.o"
 	@echo "... Sort_3.i"
 	@echo "... Sort_3.s"
