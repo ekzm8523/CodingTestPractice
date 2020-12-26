@@ -740,18 +740,70 @@ CMakeFiles/untitled1.dir/test1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/test1.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbook/CLionProjects/Programmers/test1.cpp -o CMakeFiles/untitled1.dir/test1.cpp.s
 
-CMakeFiles/untitled1.dir/Greedy_7.cpp.o: CMakeFiles/untitled1.dir/flags.make
-CMakeFiles/untitled1.dir/Greedy_7.cpp.o: ../Greedy_7.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/untitled1.dir/Greedy_7.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled1.dir/Greedy_7.cpp.o -c /Users/macbook/CLionProjects/Programmers/Greedy_7.cpp
+CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.o: ../This_is_codding_test/Greedy(2).cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.o" -c "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Greedy(2).cpp"
 
-CMakeFiles/untitled1.dir/Greedy_7.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/Greedy_7.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbook/CLionProjects/Programmers/Greedy_7.cpp > CMakeFiles/untitled1.dir/Greedy_7.cpp.i
+CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Greedy(2).cpp" > "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.i"
 
-CMakeFiles/untitled1.dir/Greedy_7.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Greedy_7.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbook/CLionProjects/Programmers/Greedy_7.cpp -o CMakeFiles/untitled1.dir/Greedy_7.cpp.s
+CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Greedy(2).cpp" -o "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.s"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.o: ../This_is_codding_test/Greedy(3).cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.o" -c "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Greedy(3).cpp"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Greedy(3).cpp" > "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.i"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Greedy(3).cpp" -o "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.s"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.o: ../This_is_codding_test/implement_(1).cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.o" -c "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/implement_(1).cpp"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/implement_(1).cpp" > "CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.i"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/implement_(1).cpp" -o "CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.s"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.o: ../This_is_codding_test/Implement(2).cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.o" -c "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Implement(2).cpp"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Implement(2).cpp" > "CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.i"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Implement(2).cpp" -o "CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.s"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.o: ../This_is_codding_test/Implement(3).cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.o" -c "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Implement(3).cpp"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Implement(3).cpp" > "CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.i"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Implement(3).cpp" -o "CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.s"
 
 # Object files for target untitled1
 untitled1_OBJECTS = \
@@ -806,7 +858,11 @@ untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/Hip_1(2).cpp.o" \
 "CMakeFiles/untitled1.dir/sort_practice.cpp.o" \
 "CMakeFiles/untitled1.dir/test1.cpp.o" \
-"CMakeFiles/untitled1.dir/Greedy_7.cpp.o"
+"CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.o" \
+"CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.o" \
+"CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.o" \
+"CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.o" \
+"CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.o"
 
 # External object files for target untitled1
 untitled1_EXTERNAL_OBJECTS =
@@ -862,10 +918,14 @@ untitled1: CMakeFiles/untitled1.dir/DFS_BFS_1(2).cpp.o
 untitled1: CMakeFiles/untitled1.dir/Hip_1(2).cpp.o
 untitled1: CMakeFiles/untitled1.dir/sort_practice.cpp.o
 untitled1: CMakeFiles/untitled1.dir/test1.cpp.o
-untitled1: CMakeFiles/untitled1.dir/Greedy_7.cpp.o
+untitled1: CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.o
+untitled1: CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.o
+untitled1: CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.o
+untitled1: CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.o
+untitled1: CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.o
 untitled1: CMakeFiles/untitled1.dir/build.make
 untitled1: CMakeFiles/untitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Linking CXX executable untitled1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Linking CXX executable untitled1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

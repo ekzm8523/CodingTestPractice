@@ -845,33 +845,6 @@ Greedy_6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_6.cpp.s
 .PHONY : Greedy_6.cpp.s
 
-Greedy_7.o: Greedy_7.cpp.o
-
-.PHONY : Greedy_7.o
-
-# target to build an object file
-Greedy_7.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_7.cpp.o
-.PHONY : Greedy_7.cpp.o
-
-Greedy_7.i: Greedy_7.cpp.i
-
-.PHONY : Greedy_7.i
-
-# target to preprocess a source file
-Greedy_7.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_7.cpp.i
-.PHONY : Greedy_7.cpp.i
-
-Greedy_7.s: Greedy_7.cpp.s
-
-.PHONY : Greedy_7.s
-
-# target to generate assembly for a file
-Greedy_7.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_7.cpp.s
-.PHONY : Greedy_7.cpp.s
-
 Hash_1.o: Hash_1.cpp.o
 
 .PHONY : Hash_1.o
@@ -1412,6 +1385,141 @@ Stack_Queue3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Stack_Queue3.cpp.s
 .PHONY : Stack_Queue3.cpp.s
 
+This_is_codding_test/Greedy(2).o: This_is_codding_test/Greedy(2).cpp.o
+
+.PHONY : This_is_codding_test/Greedy(2).o
+
+# target to build an object file
+This_is_codding_test/Greedy(2).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.o"
+.PHONY : This_is_codding_test/Greedy(2).cpp.o
+
+This_is_codding_test/Greedy(2).i: This_is_codding_test/Greedy(2).cpp.i
+
+.PHONY : This_is_codding_test/Greedy(2).i
+
+# target to preprocess a source file
+This_is_codding_test/Greedy(2).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.i"
+.PHONY : This_is_codding_test/Greedy(2).cpp.i
+
+This_is_codding_test/Greedy(2).s: This_is_codding_test/Greedy(2).cpp.s
+
+.PHONY : This_is_codding_test/Greedy(2).s
+
+# target to generate assembly for a file
+This_is_codding_test/Greedy(2).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.s"
+.PHONY : This_is_codding_test/Greedy(2).cpp.s
+
+This_is_codding_test/Greedy(3).o: This_is_codding_test/Greedy(3).cpp.o
+
+.PHONY : This_is_codding_test/Greedy(3).o
+
+# target to build an object file
+This_is_codding_test/Greedy(3).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.o"
+.PHONY : This_is_codding_test/Greedy(3).cpp.o
+
+This_is_codding_test/Greedy(3).i: This_is_codding_test/Greedy(3).cpp.i
+
+.PHONY : This_is_codding_test/Greedy(3).i
+
+# target to preprocess a source file
+This_is_codding_test/Greedy(3).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.i"
+.PHONY : This_is_codding_test/Greedy(3).cpp.i
+
+This_is_codding_test/Greedy(3).s: This_is_codding_test/Greedy(3).cpp.s
+
+.PHONY : This_is_codding_test/Greedy(3).s
+
+# target to generate assembly for a file
+This_is_codding_test/Greedy(3).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.s"
+.PHONY : This_is_codding_test/Greedy(3).cpp.s
+
+This_is_codding_test/Implement(2).o: This_is_codding_test/Implement(2).cpp.o
+
+.PHONY : This_is_codding_test/Implement(2).o
+
+# target to build an object file
+This_is_codding_test/Implement(2).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.o"
+.PHONY : This_is_codding_test/Implement(2).cpp.o
+
+This_is_codding_test/Implement(2).i: This_is_codding_test/Implement(2).cpp.i
+
+.PHONY : This_is_codding_test/Implement(2).i
+
+# target to preprocess a source file
+This_is_codding_test/Implement(2).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.i"
+.PHONY : This_is_codding_test/Implement(2).cpp.i
+
+This_is_codding_test/Implement(2).s: This_is_codding_test/Implement(2).cpp.s
+
+.PHONY : This_is_codding_test/Implement(2).s
+
+# target to generate assembly for a file
+This_is_codding_test/Implement(2).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.s"
+.PHONY : This_is_codding_test/Implement(2).cpp.s
+
+This_is_codding_test/Implement(3).o: This_is_codding_test/Implement(3).cpp.o
+
+.PHONY : This_is_codding_test/Implement(3).o
+
+# target to build an object file
+This_is_codding_test/Implement(3).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.o"
+.PHONY : This_is_codding_test/Implement(3).cpp.o
+
+This_is_codding_test/Implement(3).i: This_is_codding_test/Implement(3).cpp.i
+
+.PHONY : This_is_codding_test/Implement(3).i
+
+# target to preprocess a source file
+This_is_codding_test/Implement(3).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.i"
+.PHONY : This_is_codding_test/Implement(3).cpp.i
+
+This_is_codding_test/Implement(3).s: This_is_codding_test/Implement(3).cpp.s
+
+.PHONY : This_is_codding_test/Implement(3).s
+
+# target to generate assembly for a file
+This_is_codding_test/Implement(3).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.s"
+.PHONY : This_is_codding_test/Implement(3).cpp.s
+
+This_is_codding_test/implement_(1).o: This_is_codding_test/implement_(1).cpp.o
+
+.PHONY : This_is_codding_test/implement_(1).o
+
+# target to build an object file
+This_is_codding_test/implement_(1).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.o"
+.PHONY : This_is_codding_test/implement_(1).cpp.o
+
+This_is_codding_test/implement_(1).i: This_is_codding_test/implement_(1).cpp.i
+
+.PHONY : This_is_codding_test/implement_(1).i
+
+# target to preprocess a source file
+This_is_codding_test/implement_(1).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.i"
+.PHONY : This_is_codding_test/implement_(1).cpp.i
+
+This_is_codding_test/implement_(1).s: This_is_codding_test/implement_(1).cpp.s
+
+.PHONY : This_is_codding_test/implement_(1).s
+
+# target to generate assembly for a file
+This_is_codding_test/implement_(1).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.s"
+.PHONY : This_is_codding_test/implement_(1).cpp.s
+
 binary_search.o: binary_search.cpp.o
 
 .PHONY : binary_search.o
@@ -1634,9 +1742,6 @@ help:
 	@echo "... Greedy_6.o"
 	@echo "... Greedy_6.i"
 	@echo "... Greedy_6.s"
-	@echo "... Greedy_7.o"
-	@echo "... Greedy_7.i"
-	@echo "... Greedy_7.s"
 	@echo "... Hash_1.o"
 	@echo "... Hash_1.i"
 	@echo "... Hash_1.s"
@@ -1697,6 +1802,21 @@ help:
 	@echo "... Stack_Queue3.o"
 	@echo "... Stack_Queue3.i"
 	@echo "... Stack_Queue3.s"
+	@echo "... This_is_codding_test/Greedy(2).o"
+	@echo "... This_is_codding_test/Greedy(2).i"
+	@echo "... This_is_codding_test/Greedy(2).s"
+	@echo "... This_is_codding_test/Greedy(3).o"
+	@echo "... This_is_codding_test/Greedy(3).i"
+	@echo "... This_is_codding_test/Greedy(3).s"
+	@echo "... This_is_codding_test/Implement(2).o"
+	@echo "... This_is_codding_test/Implement(2).i"
+	@echo "... This_is_codding_test/Implement(2).s"
+	@echo "... This_is_codding_test/Implement(3).o"
+	@echo "... This_is_codding_test/Implement(3).i"
+	@echo "... This_is_codding_test/Implement(3).s"
+	@echo "... This_is_codding_test/implement_(1).o"
+	@echo "... This_is_codding_test/implement_(1).i"
+	@echo "... This_is_codding_test/implement_(1).s"
 	@echo "... binary_search.o"
 	@echo "... binary_search.i"
 	@echo "... binary_search.s"

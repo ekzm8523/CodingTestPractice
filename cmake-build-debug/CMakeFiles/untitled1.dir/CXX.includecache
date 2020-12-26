@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/macbook/CLionProjects/Programmers/Greedy_7.cpp
+/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Implement(3).cpp
 iostream
 -
 vector
 -
-algorithm
+string
 -
 
