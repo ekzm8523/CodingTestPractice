@@ -53,6 +53,8 @@ CMakeFiles/untitled1.dir/Greedy_5.cpp.o: ../Greedy_5.cpp
 
 CMakeFiles/untitled1.dir/Greedy_6.cpp.o: ../Greedy_6.cpp
 
+CMakeFiles/untitled1.dir/Greedy_7.cpp.o: ../Greedy_7.cpp
+
 CMakeFiles/untitled1.dir/Hash_1.cpp.o: ../Hash_1.cpp
 
 CMakeFiles/untitled1.dir/Hash_2.cpp.o: ../Hash_2.cpp
@@ -60,6 +62,8 @@ CMakeFiles/untitled1.dir/Hash_2.cpp.o: ../Hash_2.cpp
 CMakeFiles/untitled1.dir/Hash_3.cpp.o: ../Hash_3.cpp
 
 CMakeFiles/untitled1.dir/Hash_4.cpp.o: ../Hash_4.cpp
+
+CMakeFiles/untitled1.dir/Hip_1(2).cpp.o: ../Hip_1(2).cpp
 
 CMakeFiles/untitled1.dir/Hip_1.cpp.o: ../Hip_1.cpp
 
@@ -95,5 +99,9 @@ CMakeFiles/untitled1.dir/binary_search.cpp.o: ../binary_search.cpp
 
 CMakeFiles/untitled1.dir/floyd_warshall.cpp.o: ../floyd_warshall.cpp
 
+CMakeFiles/untitled1.dir/sort_practice.cpp.o: ../sort_practice.cpp
+
 CMakeFiles/untitled1.dir/test.cpp.o: ../test.cpp
+
+CMakeFiles/untitled1.dir/test1.cpp.o: ../test1.cpp
 

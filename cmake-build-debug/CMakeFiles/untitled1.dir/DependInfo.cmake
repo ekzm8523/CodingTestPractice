@@ -30,10 +30,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/macbook/CLionProjects/Programmers/Greedy_4.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Greedy_4.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/Greedy_5.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Greedy_5.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/Greedy_6.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Greedy_6.cpp.o"
+  "/Users/macbook/CLionProjects/Programmers/Greedy_7.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Greedy_7.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/Hash_1.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Hash_1.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/Hash_2.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Hash_2.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/Hash_3.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Hash_3.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/Hash_4.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Hash_4.cpp.o"
+  "/Users/macbook/CLionProjects/Programmers/Hip_1(2).cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Hip_1(2).cpp.o"
   "/Users/macbook/CLionProjects/Programmers/Hip_1.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Hip_1.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/Hip_2.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Hip_2.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/Hip_3.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Hip_3.cpp.o"
@@ -51,7 +53,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/macbook/CLionProjects/Programmers/Stack_Queue3.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/Stack_Queue3.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/binary_search.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/binary_search.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/floyd_warshall.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/floyd_warshall.cpp.o"
+  "/Users/macbook/CLionProjects/Programmers/sort_practice.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/sort_practice.cpp.o"
   "/Users/macbook/CLionProjects/Programmers/test.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/test.cpp.o"
+  "/Users/macbook/CLionProjects/Programmers/test1.cpp" "/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles/untitled1.dir/test1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

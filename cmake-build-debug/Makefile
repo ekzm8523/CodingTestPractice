@@ -845,6 +845,33 @@ Greedy_6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_6.cpp.s
 .PHONY : Greedy_6.cpp.s
 
+Greedy_7.o: Greedy_7.cpp.o
+
+.PHONY : Greedy_7.o
+
+# target to build an object file
+Greedy_7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_7.cpp.o
+.PHONY : Greedy_7.cpp.o
+
+Greedy_7.i: Greedy_7.cpp.i
+
+.PHONY : Greedy_7.i
+
+# target to preprocess a source file
+Greedy_7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_7.cpp.i
+.PHONY : Greedy_7.cpp.i
+
+Greedy_7.s: Greedy_7.cpp.s
+
+.PHONY : Greedy_7.s
+
+# target to generate assembly for a file
+Greedy_7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Greedy_7.cpp.s
+.PHONY : Greedy_7.cpp.s
+
 Hash_1.o: Hash_1.cpp.o
 
 .PHONY : Hash_1.o
@@ -952,6 +979,33 @@ Hash_4.s: Hash_4.cpp.s
 Hash_4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Hash_4.cpp.s
 .PHONY : Hash_4.cpp.s
+
+Hip_1(2).o: Hip_1(2).cpp.o
+
+.PHONY : Hip_1(2).o
+
+# target to build an object file
+Hip_1(2).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Hip_1(2).cpp.o"
+.PHONY : Hip_1(2).cpp.o
+
+Hip_1(2).i: Hip_1(2).cpp.i
+
+.PHONY : Hip_1(2).i
+
+# target to preprocess a source file
+Hip_1(2).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Hip_1(2).cpp.i"
+.PHONY : Hip_1(2).cpp.i
+
+Hip_1(2).s: Hip_1(2).cpp.s
+
+.PHONY : Hip_1(2).s
+
+# target to generate assembly for a file
+Hip_1(2).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/Hip_1(2).cpp.s"
+.PHONY : Hip_1(2).cpp.s
 
 Hip_1.o: Hip_1.cpp.o
 
@@ -1412,6 +1466,33 @@ floyd_warshall.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/floyd_warshall.cpp.s
 .PHONY : floyd_warshall.cpp.s
 
+sort_practice.o: sort_practice.cpp.o
+
+.PHONY : sort_practice.o
+
+# target to build an object file
+sort_practice.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/sort_practice.cpp.o
+.PHONY : sort_practice.cpp.o
+
+sort_practice.i: sort_practice.cpp.i
+
+.PHONY : sort_practice.i
+
+# target to preprocess a source file
+sort_practice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/sort_practice.cpp.i
+.PHONY : sort_practice.cpp.i
+
+sort_practice.s: sort_practice.cpp.s
+
+.PHONY : sort_practice.s
+
+# target to generate assembly for a file
+sort_practice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/sort_practice.cpp.s
+.PHONY : sort_practice.cpp.s
+
 test.o: test.cpp.o
 
 .PHONY : test.o
@@ -1438,6 +1519,33 @@ test.s: test.cpp.s
 test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/test.cpp.s
 .PHONY : test.cpp.s
+
+test1.o: test1.cpp.o
+
+.PHONY : test1.o
+
+# target to build an object file
+test1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/test1.cpp.o
+.PHONY : test1.cpp.o
+
+test1.i: test1.cpp.i
+
+.PHONY : test1.i
+
+# target to preprocess a source file
+test1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/test1.cpp.i
+.PHONY : test1.cpp.i
+
+test1.s: test1.cpp.s
+
+.PHONY : test1.s
+
+# target to generate assembly for a file
+test1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/test1.cpp.s
+.PHONY : test1.cpp.s
 
 # Help Target
 help:
@@ -1526,6 +1634,9 @@ help:
 	@echo "... Greedy_6.o"
 	@echo "... Greedy_6.i"
 	@echo "... Greedy_6.s"
+	@echo "... Greedy_7.o"
+	@echo "... Greedy_7.i"
+	@echo "... Greedy_7.s"
 	@echo "... Hash_1.o"
 	@echo "... Hash_1.i"
 	@echo "... Hash_1.s"
@@ -1538,6 +1649,9 @@ help:
 	@echo "... Hash_4.o"
 	@echo "... Hash_4.i"
 	@echo "... Hash_4.s"
+	@echo "... Hip_1(2).o"
+	@echo "... Hip_1(2).i"
+	@echo "... Hip_1(2).s"
 	@echo "... Hip_1.o"
 	@echo "... Hip_1.i"
 	@echo "... Hip_1.s"
@@ -1589,9 +1703,15 @@ help:
 	@echo "... floyd_warshall.o"
 	@echo "... floyd_warshall.i"
 	@echo "... floyd_warshall.s"
+	@echo "... sort_practice.o"
+	@echo "... sort_practice.i"
+	@echo "... sort_practice.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... test1.o"
+	@echo "... test1.i"
+	@echo "... test1.s"
 .PHONY : help
 
 
