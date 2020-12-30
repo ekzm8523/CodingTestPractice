@@ -45,6 +45,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/Stack_1.cpp.o"
   "CMakeFiles/untitled1.dir/Stack_2.cpp.o"
   "CMakeFiles/untitled1.dir/Stack_Queue3.cpp.o"
+  "CMakeFiles/untitled1.dir/This_is_codding_test/DFS_BFS(1).cpp.o"
+  "CMakeFiles/untitled1.dir/This_is_codding_test/DFS_BFS(2).cpp.o"
   "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.o"
   "CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.o"
   "CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.o"

@@ -1385,6 +1385,60 @@ Stack_Queue3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Stack_Queue3.cpp.s
 .PHONY : Stack_Queue3.cpp.s
 
+This_is_codding_test/DFS_BFS(1).o: This_is_codding_test/DFS_BFS(1).cpp.o
+
+.PHONY : This_is_codding_test/DFS_BFS(1).o
+
+# target to build an object file
+This_is_codding_test/DFS_BFS(1).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/DFS_BFS(1).cpp.o"
+.PHONY : This_is_codding_test/DFS_BFS(1).cpp.o
+
+This_is_codding_test/DFS_BFS(1).i: This_is_codding_test/DFS_BFS(1).cpp.i
+
+.PHONY : This_is_codding_test/DFS_BFS(1).i
+
+# target to preprocess a source file
+This_is_codding_test/DFS_BFS(1).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/DFS_BFS(1).cpp.i"
+.PHONY : This_is_codding_test/DFS_BFS(1).cpp.i
+
+This_is_codding_test/DFS_BFS(1).s: This_is_codding_test/DFS_BFS(1).cpp.s
+
+.PHONY : This_is_codding_test/DFS_BFS(1).s
+
+# target to generate assembly for a file
+This_is_codding_test/DFS_BFS(1).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/DFS_BFS(1).cpp.s"
+.PHONY : This_is_codding_test/DFS_BFS(1).cpp.s
+
+This_is_codding_test/DFS_BFS(2).o: This_is_codding_test/DFS_BFS(2).cpp.o
+
+.PHONY : This_is_codding_test/DFS_BFS(2).o
+
+# target to build an object file
+This_is_codding_test/DFS_BFS(2).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/DFS_BFS(2).cpp.o"
+.PHONY : This_is_codding_test/DFS_BFS(2).cpp.o
+
+This_is_codding_test/DFS_BFS(2).i: This_is_codding_test/DFS_BFS(2).cpp.i
+
+.PHONY : This_is_codding_test/DFS_BFS(2).i
+
+# target to preprocess a source file
+This_is_codding_test/DFS_BFS(2).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/DFS_BFS(2).cpp.i"
+.PHONY : This_is_codding_test/DFS_BFS(2).cpp.i
+
+This_is_codding_test/DFS_BFS(2).s: This_is_codding_test/DFS_BFS(2).cpp.s
+
+.PHONY : This_is_codding_test/DFS_BFS(2).s
+
+# target to generate assembly for a file
+This_is_codding_test/DFS_BFS(2).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make "CMakeFiles/untitled1.dir/This_is_codding_test/DFS_BFS(2).cpp.s"
+.PHONY : This_is_codding_test/DFS_BFS(2).cpp.s
+
 This_is_codding_test/Greedy(2).o: This_is_codding_test/Greedy(2).cpp.o
 
 .PHONY : This_is_codding_test/Greedy(2).o
@@ -1802,6 +1856,12 @@ help:
 	@echo "... Stack_Queue3.o"
 	@echo "... Stack_Queue3.i"
 	@echo "... Stack_Queue3.s"
+	@echo "... This_is_codding_test/DFS_BFS(1).o"
+	@echo "... This_is_codding_test/DFS_BFS(1).i"
+	@echo "... This_is_codding_test/DFS_BFS(1).s"
+	@echo "... This_is_codding_test/DFS_BFS(2).o"
+	@echo "... This_is_codding_test/DFS_BFS(2).i"
+	@echo "... This_is_codding_test/DFS_BFS(2).s"
 	@echo "... This_is_codding_test/Greedy(2).o"
 	@echo "... This_is_codding_test/Greedy(2).i"
 	@echo "... This_is_codding_test/Greedy(2).s"
