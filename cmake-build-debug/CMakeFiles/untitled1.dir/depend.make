@@ -93,9 +93,21 @@ CMakeFiles/untitled1.dir/Stack_2.cpp.o: ../Stack_2.cpp
 
 CMakeFiles/untitled1.dir/Stack_Queue3.cpp.o: ../Stack_Queue3.cpp
 
+CMakeFiles/untitled1.dir/This_is_codding_test/Binary_Search(1).cpp.o: ../This_is_codding_test/Binary_Search(1).cpp
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Binary_Search(2).cpp.o: ../This_is_codding_test/Binary_Search(2).cpp
+
 CMakeFiles/untitled1.dir/This_is_codding_test/DFS_BFS(1).cpp.o: ../This_is_codding_test/DFS_BFS(1).cpp
 
 CMakeFiles/untitled1.dir/This_is_codding_test/DFS_BFS(2).cpp.o: ../This_is_codding_test/DFS_BFS(2).cpp
+
+CMakeFiles/untitled1.dir/This_is_codding_test/DP(1).cpp.o: ../This_is_codding_test/DP(1).cpp
+
+CMakeFiles/untitled1.dir/This_is_codding_test/DP(2).cpp.o: ../This_is_codding_test/DP(2).cpp
+
+CMakeFiles/untitled1.dir/This_is_codding_test/DP(3).cpp.o: ../This_is_codding_test/DP(3).cpp
+
+CMakeFiles/untitled1.dir/This_is_codding_test/DP(4).CPP.o: ../This_is_codding_test/DP(4).CPP
 
 CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.o: ../This_is_codding_test/Greedy(2).cpp
 
