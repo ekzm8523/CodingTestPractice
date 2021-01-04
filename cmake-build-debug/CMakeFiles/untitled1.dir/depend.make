@@ -109,6 +109,14 @@ CMakeFiles/untitled1.dir/This_is_codding_test/DP(3).cpp.o: ../This_is_codding_te
 
 CMakeFiles/untitled1.dir/This_is_codding_test/DP(4).CPP.o: ../This_is_codding_test/DP(4).CPP
 
+CMakeFiles/untitled1.dir/This_is_codding_test/DP(5).cpp.o: ../This_is_codding_test/DP(5).cpp
+
+CMakeFiles/untitled1.dir/This_is_codding_test/DP(6).cpp.o: ../This_is_codding_test/DP(6).cpp
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra(1).cpp.o: ../This_is_codding_test/Dijkstra(1).cpp
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra.cpp.o: ../This_is_codding_test/Dijkstra.cpp
+
 CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(2).cpp.o: ../This_is_codding_test/Greedy(2).cpp
 
 CMakeFiles/untitled1.dir/This_is_codding_test/Greedy(3).cpp.o: ../This_is_codding_test/Greedy(3).cpp
@@ -118,6 +126,8 @@ CMakeFiles/untitled1.dir/This_is_codding_test/Implement(2).cpp.o: ../This_is_cod
 CMakeFiles/untitled1.dir/This_is_codding_test/Implement(3).cpp.o: ../This_is_codding_test/Implement(3).cpp
 
 CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.o: ../This_is_codding_test/implement_(1).cpp
+
+CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.o: ../This_is_codding_test/pqDijkstra.cpp
 
 CMakeFiles/untitled1.dir/binary_search.cpp.o: ../binary_search.cpp
 

@@ -922,6 +922,58 @@ CMakeFiles/untitled1.dir/This_is_codding_test/DP(5).cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/This_is_codding_test/DP(5).cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/DP(5).cpp" -o "CMakeFiles/untitled1.dir/This_is_codding_test/DP(5).cpp.s"
 
+CMakeFiles/untitled1.dir/This_is_codding_test/DP(6).cpp.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/This_is_codding_test/DP(6).cpp.o: ../This_is_codding_test/DP(6).cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/untitled1.dir/This_is_codding_test/DP(6).cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/untitled1.dir/This_is_codding_test/DP(6).cpp.o" -c "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/DP(6).cpp"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/DP(6).cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/This_is_codding_test/DP(6).cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/DP(6).cpp" > "CMakeFiles/untitled1.dir/This_is_codding_test/DP(6).cpp.i"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/DP(6).cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/This_is_codding_test/DP(6).cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/DP(6).cpp" -o "CMakeFiles/untitled1.dir/This_is_codding_test/DP(6).cpp.s"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra.cpp.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra.cpp.o: ../This_is_codding_test/Dijkstra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra.cpp.o -c /Users/macbook/CLionProjects/Programmers/This_is_codding_test/Dijkstra.cpp
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbook/CLionProjects/Programmers/This_is_codding_test/Dijkstra.cpp > CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra.cpp.i
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbook/CLionProjects/Programmers/This_is_codding_test/Dijkstra.cpp -o CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra.cpp.s
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra(1).cpp.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra(1).cpp.o: ../This_is_codding_test/Dijkstra(1).cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra(1).cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra(1).cpp.o" -c "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Dijkstra(1).cpp"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra(1).cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra(1).cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Dijkstra(1).cpp" > "CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra(1).cpp.i"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra(1).cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra(1).cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macbook/CLionProjects/Programmers/This_is_codding_test/Dijkstra(1).cpp" -o "CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra(1).cpp.s"
+
+CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.o: ../This_is_codding_test/pqDijkstra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.o -c /Users/macbook/CLionProjects/Programmers/This_is_codding_test/pqDijkstra.cpp
+
+CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbook/CLionProjects/Programmers/This_is_codding_test/pqDijkstra.cpp > CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.i
+
+CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbook/CLionProjects/Programmers/This_is_codding_test/pqDijkstra.cpp -o CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.s
+
 # Object files for target untitled1
 untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/Hash_4.cpp.o" \
@@ -988,7 +1040,11 @@ untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/This_is_codding_test/DP(2).cpp.o" \
 "CMakeFiles/untitled1.dir/This_is_codding_test/DP(3).cpp.o" \
 "CMakeFiles/untitled1.dir/This_is_codding_test/DP(4).CPP.o" \
-"CMakeFiles/untitled1.dir/This_is_codding_test/DP(5).cpp.o"
+"CMakeFiles/untitled1.dir/This_is_codding_test/DP(5).cpp.o" \
+"CMakeFiles/untitled1.dir/This_is_codding_test/DP(6).cpp.o" \
+"CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra.cpp.o" \
+"CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra(1).cpp.o" \
+"CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.o"
 
 # External object files for target untitled1
 untitled1_EXTERNAL_OBJECTS =
@@ -1058,9 +1114,13 @@ untitled1: CMakeFiles/untitled1.dir/This_is_codding_test/DP(2).cpp.o
 untitled1: CMakeFiles/untitled1.dir/This_is_codding_test/DP(3).cpp.o
 untitled1: CMakeFiles/untitled1.dir/This_is_codding_test/DP(4).CPP.o
 untitled1: CMakeFiles/untitled1.dir/This_is_codding_test/DP(5).cpp.o
+untitled1: CMakeFiles/untitled1.dir/This_is_codding_test/DP(6).cpp.o
+untitled1: CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra.cpp.o
+untitled1: CMakeFiles/untitled1.dir/This_is_codding_test/Dijkstra(1).cpp.o
+untitled1: CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.o
 untitled1: CMakeFiles/untitled1.dir/build.make
 untitled1: CMakeFiles/untitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Linking CXX executable untitled1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/macbook/CLionProjects/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable untitled1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
