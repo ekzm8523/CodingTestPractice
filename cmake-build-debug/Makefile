@@ -1871,6 +1871,33 @@ This_is_codding_test/pqDijkstra.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.s
 .PHONY : This_is_codding_test/pqDijkstra.cpp.s
 
+This_is_codding_test/test.o: This_is_codding_test/test.cpp.o
+
+.PHONY : This_is_codding_test/test.o
+
+# target to build an object file
+This_is_codding_test/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/This_is_codding_test/test.cpp.o
+.PHONY : This_is_codding_test/test.cpp.o
+
+This_is_codding_test/test.i: This_is_codding_test/test.cpp.i
+
+.PHONY : This_is_codding_test/test.i
+
+# target to preprocess a source file
+This_is_codding_test/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/This_is_codding_test/test.cpp.i
+.PHONY : This_is_codding_test/test.cpp.i
+
+This_is_codding_test/test.s: This_is_codding_test/test.cpp.s
+
+.PHONY : This_is_codding_test/test.s
+
+# target to generate assembly for a file
+This_is_codding_test/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/This_is_codding_test/test.cpp.s
+.PHONY : This_is_codding_test/test.cpp.s
+
 binary_search.o: binary_search.cpp.o
 
 .PHONY : binary_search.o
@@ -2207,6 +2234,9 @@ help:
 	@echo "... This_is_codding_test/pqDijkstra.o"
 	@echo "... This_is_codding_test/pqDijkstra.i"
 	@echo "... This_is_codding_test/pqDijkstra.s"
+	@echo "... This_is_codding_test/test.o"
+	@echo "... This_is_codding_test/test.i"
+	@echo "... This_is_codding_test/test.s"
 	@echo "... binary_search.o"
 	@echo "... binary_search.i"
 	@echo "... binary_search.s"

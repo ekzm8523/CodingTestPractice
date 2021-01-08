@@ -129,6 +129,8 @@ CMakeFiles/untitled1.dir/This_is_codding_test/implement_(1).cpp.o: ../This_is_co
 
 CMakeFiles/untitled1.dir/This_is_codding_test/pqDijkstra.cpp.o: ../This_is_codding_test/pqDijkstra.cpp
 
+CMakeFiles/untitled1.dir/This_is_codding_test/test.cpp.o: ../This_is_codding_test/test.cpp
+
 CMakeFiles/untitled1.dir/binary_search.cpp.o: ../binary_search.cpp
 
 CMakeFiles/untitled1.dir/floyd_warshall.cpp.o: ../floyd_warshall.cpp
