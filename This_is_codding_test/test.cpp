@@ -12,11 +12,6 @@ using namespace std;
 
 int main(){
 
-    bitset<10> bit;
-    bit.set(1);
-    bit = 10;
-    cout << bit << endl;
-    cout << bit.flip(2);
 
     return 0;
 }
