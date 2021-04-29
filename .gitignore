@@ -1,3 +1,5 @@
 CMakeLists.txt
 cmake-build-debug
-.ideagit
+.idea
+.DS_Store
+
