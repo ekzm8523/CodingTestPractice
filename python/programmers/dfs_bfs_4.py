@@ -27,7 +27,7 @@ def solution(tickets):
     dfs(ticket_dic, tickets[0][0], answer)
 
     print(ticket_dic)
-
+    ## 하이
 if __name__ == "__main__":
     tickets = [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]
     print(solution(tickets))
