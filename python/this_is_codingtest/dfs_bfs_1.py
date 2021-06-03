@@ -1,31 +1,30 @@
 
-n, m = map(int, input().split())
-
-graph = []
-for i in range(n):
-    graph.append(list(map(int,input())))
-print(graph)
-
-
-
-def dfs(x,y):
-    if x <= -1 or x >= n or y <= -1 or y >= m:
+def dfs(table, x, y):
+    if x <= -1 or x >= len(table) or y <= -1 or y >= len(table[0]):
         return False
-    if graph[x][y] == 0:
-        graph[x][y] = 1
-        dfs(x-1,y)
-        dfs(x+1,y)
-        dfs(x,y-1)
-        dfs(x,y+1)
+
+    if table[x][y] == 0:
+        table[x][y] = 1
+        dfs(table, x - 1, y)
+        dfs(table, x + 1, y)
+        dfs(table, x, y - 1)
+        dfs(table, x, y + 1)
+
         return True
     return False
 
+if __name__ == "__main__":
+    n, m = map(int, input().split())
 
+    table = []
+    check_table = []
+    for i in range(n):
+        table.append(list(map(int, input())))
 
-answer = 0
-for i in range(n):
-    for j in range(m):
-        if dfs(i,j):
-            answer += 1
-print(answer)
+    result = 0
+    for i in range(n):
+        for j in range(m):
+            if table[i][j] != 1 and dfs(table, i, j) == True:
+                result += 1
 
+    print(result)
