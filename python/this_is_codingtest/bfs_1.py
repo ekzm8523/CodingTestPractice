@@ -7,7 +7,7 @@ def bfs(graph, start, visited):
     visited[start] = True
     while dq:
         next = dq.popleft()
-        print(next, end=' ')
+        (next, end=' ')
         for i in graph[next]:
             if not visited[i]:
                 dq.append(i)
