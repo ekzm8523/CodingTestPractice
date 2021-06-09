@@ -19,7 +19,8 @@ def check_answer(results, answers):
             print(f"{i + 1}번 정답")
         else:
             print(f"{'*' * 10} {i + 1}번 오답 {'*' * 10}\n 정답 -> {answer} \n 내꺼 -> {result}")
-# ))(()(
+
+
 def check_correct_str(u):
     if not u:
         print("u가 비었어요 확인좀요 !")
@@ -34,7 +35,6 @@ def check_correct_str(u):
             stack += u[i]
 
     return stack == ""
-
 
 
 def magic_box(w):
