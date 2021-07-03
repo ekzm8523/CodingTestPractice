@@ -29,13 +29,13 @@ if __name__ == "__main__":
         class34.sort()
         answer_list = []
         for s in class12:
-            new_k = k - s
+            new_k = k - s # 300 - class 12의 sum값
             if class34[-1] < new_k:
                 new_v_idx = -1
             else:
                 new_v_idx = bisect_left(class34, new_k)
-            if abs(k - answer) >= abs(k - class34[new_v_idx] - s):
-                if abs(k - answer) == abs(k - class34[new_v_idx] - s) and (k - answer) > (k - class34[new_v_idx] - s):
+            if abs(k - answer) >= abs(k - (class34[new_v_idx] + s)):
+                if abs(k - answer) == abs(k - (class34[new_v_idx] + s)) and (k - answer) > (k - (class34[new_v_idx] + s)):
                     continue
                 else:
                     answer = class34[new_v_idx] + s

@@ -27,7 +27,7 @@ if __name__ == "__main__":
         return False
 
     left = 0
-    right = 1e9
+    right = int(1e9)
     max_weight = 0
 
     while left <= right:
@@ -39,4 +39,4 @@ if __name__ == "__main__":
         else:
             right = mid - 1
 
-    print(int(max_weight))
+    print(max_weight)

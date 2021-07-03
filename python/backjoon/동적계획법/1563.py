@@ -25,6 +25,7 @@ if __name__ == "__main__":
 
     # dp = [[[0] * 3] * 2] * N
     dp = [[[0 for absent in range(3)] for late in range(2)] for day in range(N)]
+
     print(dfs(0, 0, 0) % 1000000)
 
 
