@@ -16,7 +16,7 @@ def dfs(x, y):
         if 0 <= nx < M and 0 <= ny < N:
             if matrix[nx][ny] < matrix[x][y]:
                 dp[x][y] += dfs(nx, ny)
-
+    
     return dp[x][y]
 
 
