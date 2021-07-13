@@ -1,13 +1,19 @@
-#
-# """
-# 규칙 1. i+1번째 이진수가 1이고 i+2번째부터 전부 0이면 i번째 이진수를 0으로 변경
-# 규칙 2. 제한없이 맨 오른쪽 자리를 변경합니다.
-#
-# """
-#
-#
-# INF = 10**15 + 1
-#
+
+"""
+규칙 1. i+1번째 이진수가 1이고 i+2번째부터 전부 0이면 i번째 이진수를 0으로 변경
+규칙 2. 제한없이 맨 오른쪽 자리를 변경합니다.
+13
+1101 -> 0000
+num
+dp[num] = min(dp[규칙1(num)], dp[규칙2(num)], dp[num])
+
+bitmask
+bit shake it
+sibal
+
+"""
+
+
 # def binary2int(bin_num):
 #     size = len(bin_num)
 #     bin_num = int(bin_num)
@@ -45,37 +51,37 @@
 # if __name__ == "__main__":
 #     minOperations(13)
 #     minOperations(11)
+
+
+
+"""
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
 #
+# Complete the 'minOperations' function below.
 #
+# The function is expected to return a LONG_INTEGER.
+# The function accepts LONG_INTEGER n as parameter.
 #
-# """
-# #!/bin/python3
-#
-# import math
-# import os
-# import random
-# import re
-# import sys
-#
-#
-# #
-# # Complete the 'minOperations' function below.
-# #
-# # The function is expected to return a LONG_INTEGER.
-# # The function accepts LONG_INTEGER n as parameter.
-# #
-#
-# def minOperations(n):
-#     # Write your code here
-# if __name__ == '__main__':
-#     fptr = open(os.environ['OUTPUT_PATH'], 'w')
-#
-#     n = int(input().strip())
-#
-#     result = minOperations(n)
-#
-#     fptr.write(str(result) + '\n')
-#
-#     fptr.close()
-#
-# """
+
+def minOperations(n):
+    # Write your code here
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input().strip())
+
+    result = minOperations(n)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+
+"""

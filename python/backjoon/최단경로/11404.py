@@ -1,8 +1,9 @@
 # https://www.acmicpc.net/problem/11404
-INF = 100001
+import sys
+
 
 if __name__ == "__main__":
-
+    INF = sys.maxsize
     n = int(input())
     m = int(input())
 

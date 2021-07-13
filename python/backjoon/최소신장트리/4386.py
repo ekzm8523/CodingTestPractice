@@ -3,6 +3,7 @@
 전체 별들을 잇는다면 밀집 그래프가 되기 때문에 Prim MST 알고리즘을 사
 """
 import math
+import sys
 import heapq
 
 def calc_distance(A, B):
