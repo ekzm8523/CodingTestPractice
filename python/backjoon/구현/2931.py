@@ -2,7 +2,7 @@
 
 from collections import deque
 
-dx = [-1, 0, 1, 0]
+dx = [-1, 0, 1, 0] # 시계 방향 12 -> 3 -> 6 -> 9
 dy = [0, 1, 0, -1]
 
 def code2direction(ch):

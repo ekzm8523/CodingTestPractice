@@ -9,20 +9,20 @@ i = 3
 K - i + 1 = 5
 
 """
-from collections import deque
+from collections import deque, defaultdict
 
 if __name__ == "__main__":
     n, m = map(int, input().split())
 
     amounts = list(map(int, input().split()))
 
-    dq_dic = {}
-
+    # dq_dic = {}
+    dq_dic = defaultdict(deque)
     for i in range(n):
-        if amounts[i] not in dq_dic:
-            dq_dic[amounts[i]] = deque([i+1])
-        else:
-            dq_dic[amounts[i]].append(i+1)
+        # if amounts[i] not in dq_dic:
+        #     dq_dic[amounts[i]] = deque([i+1])
+        # else:
+        dq_dic[amounts[i]].append(i+1)
 
     sorted_dq = sorted(dq_dic.items(), key=lambda x: x[0], reverse=True)
     reverse = False

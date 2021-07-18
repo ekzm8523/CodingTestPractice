@@ -20,7 +20,7 @@ if __name__ == "__main__":
         edges[b].append((a, c))
 
     def bfs(start, end):
-        table = [sys.maxsize for i in range(N + 1)]
+        table = [sys.maxsize for _ in range(N + 1)]
         hq = []
         table[start] = 0
         heapq.heappush(hq, (table[start], start))
