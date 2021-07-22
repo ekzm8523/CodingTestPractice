@@ -54,31 +54,37 @@ INF = int(1e9)
 #         print(-1) if table[i] == INF else print(table[i])
 
 
+import sys
 
 if __name__ == "__main__":
     N, M = map(int, sys.stdin.readline().split())
     graph = [[] for _ in range(N + 1)]
-    table = [INF] * (N + 1)
-    table[0] = graph[0] = None
-    for _ in range(M):
-        A, B, T = map(int, sys.stdin.readline().split())
-        graph[A].append((B, T))
+    INF = sys.maxsize
+    times = [INF] * (N + 1)
 
+    for _ in range(M):
+        a, b, time = map(int, sys.stdin.readline().split())
+        graph[a].append((b, time))
+
+    # initialization
+    graph[0] = times[0] = None
+    times[1] = 0
     is_possible = True
-    table[1] = 0
-    for repeat in range(N):
+    # start bellman ford
+    for cnt in range(1, N + 1):     # N-1번만큼 반복 후 마지막번째에 또 업데이트가 이루어 지면 무한 타임머신
         for i in range(1, N + 1):
             for node, time in graph[i]:
-                if table[i] != INFtable[node] > table[i] + time:
-                    table[node] = table[i] + time
-                    if repeat == N-1:
+                if times[i] != INF and times[i] + time < times[node]:   # time[i] != INF가 없으면 52퍼에서 틀린다 왜그러지?
+                    times[node] = times[i] + time
+                    if cnt == N:
                         is_possible = False
 
     if is_possible:
-        for time in table[2:]:
-            print(time) if time != INF else print(-1)
+        for i in range(2, N + 1):
+            print(times[i]) if times[i] != INF else print(-1)
     else:
         print(-1)
-
+    # for i in range(N + 1):
+    #     print(f"{i} : {graph[i]} time : {times[i]}")
 
 
