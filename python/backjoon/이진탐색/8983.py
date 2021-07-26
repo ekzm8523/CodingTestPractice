@@ -62,6 +62,7 @@ if __name__ == "__main__":
     cnt = 0
 
     for i in range(n):
-        if (bisects[i] < m and shot_pos[bisects[i]] - animal_pos[i][0] + animal_pos[i][1] <= l) or (0 < bisects[i] and animal_pos[i][0] - shot_pos[bisects[i] - 1] + animal_pos[i][1] <= l ):
+        if (bisects[i] < m and shot_pos[bisects[i]] - animal_pos[i][0] + animal_pos[i][1] <= l) or \
+                (0 < bisects[i] and animal_pos[i][0] - shot_pos[bisects[i] - 1] + animal_pos[i][1] <= l ):
             cnt += 1
     print(cnt)

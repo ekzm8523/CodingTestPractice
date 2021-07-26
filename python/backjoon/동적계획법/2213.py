@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
     for _ in range(n - 1):
         a, b = map(int, sys.stdin.readline().split())
-        if a < b:
+        if a < b: # 1 , 2
             childrens[a].append(b)
         else:
             childrens[b].append(a)
