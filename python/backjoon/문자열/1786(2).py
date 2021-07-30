@@ -21,7 +21,6 @@ def kmp(s, p):
     j = 0
     pi = get_pi(p)
 
-
     for i in range(n):
         while j > 0 and s[i] != p[j]:
             j = pi[j - 1]
