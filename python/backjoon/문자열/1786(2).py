@@ -12,7 +12,6 @@ def get_pi(p):
     return pi
 
 
-
 def kmp(s, p):
 
     ans = []

@@ -1,6 +1,7 @@
 # https://www.acmicpc.net/problem/9251
 
 if __name__ == "__main__":
+
     A = ' ' + input()
     B = ' ' + input()
     dp = [[0] * len(B) for _ in range(len(A))]

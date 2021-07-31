@@ -12,8 +12,8 @@ def dfs(current_node):
     for node in graph[current_node]:
         if not visit[node]:
             dfs(node)
-            dp[current_node][0] += dp[node][1]
-            dp[current_node][1] += max(dp[node][0], dp[node][1])
+            dp[current_node][0] += dp[node][1]  # not early adopter
+            dp[current_node][1] += max(dp[node][0], dp[node][1])    # early adopter
 
 
 
