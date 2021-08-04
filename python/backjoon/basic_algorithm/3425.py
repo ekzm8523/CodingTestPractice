@@ -125,7 +125,7 @@ if __name__ == "__main__":
             program.append(query)
         if is_quit:
             break
-ㅅ
+
         n = int(sys.stdin.readline())
 
         for _ in range(n):
