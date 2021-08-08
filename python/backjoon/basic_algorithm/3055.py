@@ -5,7 +5,6 @@
 'X' : 돌
 'D' : 비버의 굴
 'S' : 고슴도치의 위치
-
 """
 
 from collections import deque
@@ -49,7 +48,7 @@ if __name__ == "__main__":
             if table[i][j] == 'S':
                 s_pos = [i, j]
             elif table[i][j] == '*':
-                w_pos = [i, j]
+                w_pos.append([i, j])  # water 여러개
 
     visit = [[False] * C for _ in range(R)]
 
@@ -58,7 +57,8 @@ if __name__ == "__main__":
         visit[x][y] = True
         q, wq = deque(), deque()
         q.append((x, y))
-        wq.append(water_pos)
+        for wp in water_pos:
+            wq.append(wp)
         depth = 0
         while q:
             depth += 1

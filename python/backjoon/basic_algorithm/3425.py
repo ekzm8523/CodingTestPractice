@@ -58,7 +58,7 @@ class go_stack:
         if len(self.stack) >= 2:
             tmp = self.stack.pop()
             self.stack[-1] += tmp
-            if self.stack[-1] > INF:
+            if abs(self.stack[-1]) > INF:
                 self.is_error = True
         else:
             self.is_error = True
@@ -68,7 +68,7 @@ class go_stack:
         if len(self.stack) >= 2:
             tmp = self.stack.pop()
             self.stack[-1] -= tmp
-            if self.stack[-1] > INF:
+            if abs(self.stack[-1]) > INF:
                 self.is_error = True
         else:
             self.is_error = True
@@ -78,7 +78,7 @@ class go_stack:
         if len(self.stack) >= 2:
             tmp = self.stack.pop()
             self.stack[-1] *= tmp
-            if self.stack[-1] > INF:
+            if abs(self.stack[-1]) > INF:
                 self.is_error = True
         else:
             self.is_error = True
@@ -90,7 +90,11 @@ class go_stack:
             if tmp == 0:
                 self.is_error = True
                 return
-            self.stack[-1] //= tmp
+            if self.stack[-1] < 0 ^ tmp < 0:    # xor
+                self.stack[-1] = -(abs(self.stack[-1]) // abs(tmp))
+            else:
+                self.stack[-1] = abs(self.stack[-1]) // abs(tmp)
+            # self.stack[-1] //= tmp
         else:
             self.is_error = True
 
@@ -101,7 +105,10 @@ class go_stack:
             if tmp == 0:
                 self.is_error = True
                 return
-            self.stack[-1] %= tmp
+            if stack[-1] < 0:
+                stack[-1] = -(abs(stack[-1]) % abs(tmp))
+            else:
+                self.stack[-1] %= tmp   # stack[-1] = stack[-1] % tmp
         else:
             self.is_error = True
 
