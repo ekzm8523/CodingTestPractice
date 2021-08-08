@@ -90,7 +90,7 @@ class go_stack:
             if tmp == 0:
                 self.is_error = True
                 return
-            if self.stack[-1] < 0 ^ tmp < 0:    # xor
+            if (self.stack[-1] < 0) ^ (tmp < 0):    # xor
                 self.stack[-1] = -(abs(self.stack[-1]) // abs(tmp))
             else:
                 self.stack[-1] = abs(self.stack[-1]) // abs(tmp)
@@ -105,10 +105,10 @@ class go_stack:
             if tmp == 0:
                 self.is_error = True
                 return
-            if stack[-1] < 0:
-                stack[-1] = -(abs(stack[-1]) % abs(tmp))
+            if self.stack[-1] < 0:
+                self.stack[-1] = -(abs(self.stack[-1]) % abs(tmp))
             else:
-                self.stack[-1] %= tmp   # stack[-1] = stack[-1] % tmp
+                self.stack[-1] = abs(self.stack[-1]) % abs(tmp)   # stack[-1] = stack[-1] % tmp
         else:
             self.is_error = True
 
