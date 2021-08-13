@@ -29,7 +29,6 @@ if __name__ == "__main__":
                     dq.append(tmp)
                     next_cond.add(tmp)
 
-
     for i in range(k):
         bfs(i)
 

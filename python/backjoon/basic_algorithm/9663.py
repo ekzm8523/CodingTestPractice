@@ -18,7 +18,7 @@ if __name__ == "__main__":
     def dfs(row):
         global answer
         for col in range(n):
-            if col_visit[col] or slash_right[col-row] or slash_left[col+row]:
+            if col_visit[col] or slash_right[col - row] or slash_left[col + row]:
                 continue
             col_visit[col] = slash_right[col - row] = slash_left[col + row] = True
             if row == n - 1:

@@ -2,8 +2,8 @@
 """
 dfs 사용
 memoization 사용
-
 """
+
 import sys
 
 if __name__ == "__main__":
@@ -27,7 +27,9 @@ if __name__ == "__main__":
                     memoization[0][0] = -1
                     return
                 memoization[nx][ny] = depth + 1
+
                 dfs(nx, ny, depth + 1)
+
         visit[x][y] = False
 
     memoization[0][0] = 1
