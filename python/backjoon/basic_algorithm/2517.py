@@ -66,5 +66,4 @@ if __name__ == "__main__":
         print(f"best rank is {i + 1 - passable_person}")
         print(i + 1 - passable_person)
         insert(runner)
-
         # print_tree()
