@@ -63,8 +63,8 @@ if __name__ == "__main__":
         print_tree()
         passable_person = prefix_sum(1, n, 1, runner)
         print(f"현재 등수 : {i + 1}  제낄만 한사람 : {passable_person}")
-        # print(f"best rank is {i + 1 - passable_person}")
-        # print(i + 1 - passable_person)
+        print(f"best rank is {i + 1 - passable_person}")
+        print(i + 1 - passable_person)
         insert(runner)
         print_tree()
 
