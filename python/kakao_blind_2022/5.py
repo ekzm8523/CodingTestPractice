@@ -1,8 +1,5 @@
-"""
-
-"""
-
 from collections import deque
+
 class Node:
 
     def __init__(self, node_num, is_sheep):
@@ -13,6 +10,7 @@ class Node:
         self.is_sheep = (is_sheep == 0)
         self.wolf_cnt = 0
         self.is_leaf = True
+
     def __repr__(self):
         if self.is_sheep:
             return f"{self.num}(sheep)"
@@ -58,16 +56,30 @@ def solution(info, edges):
     sorted_sheep = sorted(sheep, key=lambda x: x.wolf_cnt)
     print(sorted_sheep)
 
-    # def dfs(num):
-
 
     sheep_set = set()
     wolf_set = set()
-    for sheep in sorted_sheep:
-        dfs(sheep.num)
 
-    print()
-    return answer
+    for sheep in sorted_sheep:
+        start_num = sheep.num
+        if sheep.wolf_cnt == 0:
+            sheep_set.add(start_num)
+            continue
+        tmp_sheep_set = sheep_set.copy()
+        tmp_wolf_set = wolf_set.copy()
+
+        while sheep.parent:
+            sheep = tree[sheep.parent]
+            if sheep.is_sheep:
+                tmp_sheep_set.add(sheep.num)
+            else:
+                tmp_wolf_set.add(sheep.num)
+        if len(tmp_sheep_set) > len(tmp_wolf_set):
+            tmp_sheep_set.add(start_num)
+            sheep_set = sheep_set | tmp_sheep_set
+            wolf_set = wolf_set | tmp_wolf_set
+
+    return len(sheep_set)
 
 if __name__ == "__main__":
 
