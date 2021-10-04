@@ -6,6 +6,7 @@
 - 1. cand 내에 중복된 값이 있는지 확인 -> set으로 변환했을때 크기 변화가 있으면 중복값 존재
 - 2. 기존에 있던 후보군들과 중복조합인지 확인하기 위해 sort를 하면 list로 변환이 되고 다시 튜플로 변환해서 set에 추가해준다.
 """
+
 from itertools import product
 
 def matching_check(id, ban_id):
@@ -29,8 +30,6 @@ def solution(user_id, banned_id):
             if matching_check(id, ban_id):
                 ban_dic[ban_id].append(id)
 
-    print(ban_dic)
-
     items = []
     for ban_id in banned_id:
         items.append(ban_dic[ban_id])
@@ -38,10 +37,11 @@ def solution(user_id, banned_id):
     answer = set()
     ban_size = len(banned_id)
     for cand in product(*items):
+
         cand = set(cand)
         if len(cand) == ban_size:
             answer.add(tuple(sorted(cand)))
-
+            print(answer)
     return len(answer)
 
 if __name__ == "__main__":
