@@ -16,23 +16,25 @@ def solution(s):
     return True
 
 
-if __name__ == "__main__":
-    s = "()[]{}"
-    s2 = "([)]"
-
-    print(solution(s))
-    print(solution(s2))
+import threading
 
 
+def foo():
+    global x
+    for i in range(1000000):
+        x += 1
+def bar():
+    global x
+    for i in range(1000000):
+        x -= 1
 
-if __name__ == "__main__":
-    N = 311
-    answer = True
+if __name__ == '__main__':
 
-    obj = N // 2 + 1
-    for i in range(2, obj):
-        if N % i == 0:
-            answer = False
-            break
+    x = 0  # A shared value
+    t1 = threading.Thread(target=foo)
+    t2 = threading.Thread(target=bar)
+    t1.start()
+    t2.start()
+    t1.join()
+    t2.join() # Wait for completion
 
-    print(answer)

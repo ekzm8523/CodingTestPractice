@@ -12,7 +12,7 @@
 4. 본문에서는 사이클은 발생하지 않는다는 가정이 있었지만 order 를 추가해줌으로써 사이클이 발생할 수 있다.
 5. 사이클 판별 하고 전체 순회를 했을때 모든 노드를 방문 했으면 return True else return False
 """
-from collections import deque
+from collections import deque, UserDict
 
 def solution(n, path, order):
 
