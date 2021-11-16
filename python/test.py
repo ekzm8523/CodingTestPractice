@@ -20,7 +20,7 @@ def bar():
         x -= 1
 
 if __name__ == '__main__':
-
+    ...
     # start = time.time()
     # working()
     # working()
