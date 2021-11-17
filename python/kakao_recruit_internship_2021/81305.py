@@ -54,6 +54,8 @@ def solution(k, num, links):
             traffic = calculate_traffic(start, copy_links, num)
             remain_traffic -= traffic
             max_traffic = max(max_traffic, traffic)
+            if max_traffic >= answer:
+                break
         max_traffic = max(max_traffic, remain_traffic)
         answer = min(max_traffic, answer)
         del copy_links
