@@ -10,9 +10,6 @@ def is_devide_group(criterion, k, num, links, search_order):
     # dp[v][0] -> v를 루트로 가지고 criterion 을 넘지 않는 최소 그룹 수
     # dp[v][1] -> 최소 그룹 수로 나눴을때 v를 포함한 서브 트리의 sum 값
     dp = [[sys.maxsize, 0] for _ in range(size)]
-
-    max_depth = links[search_order[-1]][-1]
-
     while search_order:
         v = search_order.pop()
         if num[v] > criterion:
@@ -48,6 +45,7 @@ def is_devide_group(criterion, k, num, links, search_order):
         else:
             dp[v][0] = 1
             dp[v][1] = num[v]
+        print(criterion, v, dp[v])
         if depth == 0:
             return dp[v][0] <= k
 
@@ -59,7 +57,7 @@ def find_root(links):
             candidate.remove(link[0])
         if link[1] != -1:
             candidate.remove(link[1])
-
+    print(candidate)
     return candidate.pop()
 
 
@@ -84,7 +82,7 @@ def preprocess_links(links, root):
 
 def solution(k, num, links):
     _sum = sum(num)
-    answer = sys.maxsize
+    answer = _sum
     if k == 1:
         return _sum
     l, r = _sum // 4, _sum
@@ -102,20 +100,20 @@ def solution(k, num, links):
     return answer
 
 if __name__ == '__main__':
-    # k = 3
-    # num = [12, 30, 1, 8, 8, 6, 20, 7, 5, 10, 4, 1]
-    # links = [[-1, -1], [-1, -1], [-1, -1], [-1, -1], [8, 5], [2, 10], [3, 0], [6, 1], [11, -1], [7, 4], [-1, -1], [-1, -1]]
-    # print(solution(k, num, links))
-    #
-    # k = 1
-    # num = [6, 9, 7, 5]
-    # links = [[-1, -1], [-1, -1], [-1, 0], [2, 1]]
-    # print(solution(k, num, links))
-    #
-    # k = 2
-    # num = [6, 9, 7, 5]
-    # links = [[-1, -1], [-1, -1], [-1, 0], [2, 1]]
-    # print(solution(k, num, links))
+    k = 2
+    num = [12, 30, 1, 8, 8, 6, 20, 7, 5, 10, 4, 1]
+    links = [[-1, -1], [-1, -1], [-1, -1], [-1, -1], [8, 5], [2, 10], [3, 0], [6, 1], [11, -1], [7, 4], [-1, -1], [-1, -1]]
+    print(solution(k, num, links))
+
+    k = 1
+    num = [6, 9, 7, 5]
+    links = [[-1, -1], [-1, -1], [-1, 0], [2, 1]]
+    print(solution(k, num, links))
+
+    k = 2
+    num = [6, 9, 7, 5]
+    links = [[-1, -1], [-1, -1], [-1, 0], [2, 1]]
+    print(solution(k, num, links))
 
     k = 4
     num = [6, 9, 7, 5]
