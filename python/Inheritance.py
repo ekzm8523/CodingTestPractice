@@ -6,10 +6,11 @@ class A:
         print("A function execute")
 
 class B(A):
-
-    def func(self):
-        super().func()
-        print("B function execute")
+    ...
+    #
+    # def func(self):
+    #     super().func()
+    #     print("B function execute")
 
 if __name__ == '__main__':
     a1 = A()
