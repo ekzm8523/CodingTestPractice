@@ -5,16 +5,18 @@ two pointer 문제인듯
 """
 from datetime import datetime, timedelta
 
+
 def preprocess_second(s):
-    if s[-1] == "s":
+    if s[-1] == "s":    # 처리시간은 s가 붙어있으므로 제거
         s = s[:-1]
     s = f"{float(s):0.3f}"
-    if s.find(".") != -1:
+    if s.find(".") != -1:   # .이 있을수도 있고 없을수도 있음
         s, ms = map(int, s.split("."))
     else:
         s, ms = int(s), 0
 
     return int(s), int(ms) * 1000
+
 
 def preprocess_time(t):
     h, m, s = t.split(":")
@@ -24,14 +26,10 @@ def preprocess_time(t):
     return h, m, s, ms
 
 
-
 def preprocessing(lines):
-
     new_lines = []
-
     for line in lines:
         day, end_time, process_time = line.split()
-
         year, month, day = map(int, day.split('-'))
         t, m, s, ms = preprocess_time(end_time)
         end = datetime(year, month, day, t, m, s, ms)
@@ -43,41 +41,21 @@ def preprocessing(lines):
 
         new_lines.append((start, end))
 
-    return sorted(new_lines, key=lambda x: x[1])
+    return new_lines    # 어차피 종료시간으로 정렬되어 있음
 
 
 def solution(lines):
-    """
-    start end 둘다 넣고 set는 indexing만 넣어서 start event
-    """
+    lines = preprocessing(lines)
+    second_td = timedelta(0, 0, 999000)
+    max_cnt = 0
+    for i in range(len(lines)):
+        cnt = 0
+        for j in range(i, len(lines)):
+            if lines[i][1] + second_td >= lines[j][0]:
+                cnt += 1
+        max_cnt = max(cnt, max_cnt)
 
-    # init setting
-    ptr = 0
-    lines = preprocessing(lines)  # index dictionary 처럼 쓸것임
-    traffic_set = set()
-    cur_start = datetime(2016, 9, 15, 0, 0, 0, 0)
-    cur_end = datetime(2016, 9, 15, 0, 0, 0, 999999)
-
-    event_queue = set()
-    for i, (start, end) in enumerate(lines):
-        if cur_start <= start <= cur_end:
-            traffic_set.add(i)
-
-        if end <= cur_end:
-            traffic_set.add(i)
-            continue
-
-
-        if cur_start > start:
-            event_queue.add((start, 0))
-        event_queue.add((start, 1))
-    event_queue = sorted(event_queue, key=lambda x: x[0])
-    print(event_queue)
-
-    for start, end in lines:
-        print(start, end)
-
-    return "*"*50
+    return max_cnt
 
 if __name__ == '__main__':
     lines = [
