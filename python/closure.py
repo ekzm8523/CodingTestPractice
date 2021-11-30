@@ -1,4 +1,4 @@
-
+##
 def in_cache(func):
     cache = {}
     a = 3
