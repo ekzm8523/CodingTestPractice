@@ -12,8 +12,9 @@ ex ) 1, 2, 3 순서라면 1-1, 1-2 가 있을거고 두개의 순서도 각각 �
 """
 
 import math
+from copy import deepcopy
 from itertools import permutations
-from collections import defaultdict
+from collections import defaultdict, deque
 
 
 def solution(board, r, c):
@@ -29,22 +30,77 @@ def solution(board, r, c):
 
     print(combinations)
 
-    def bfs(start, target, is_left_first):
+    def bfs(test_board, start, target) -> int:
         """
-        start에서 target number를 is_left_first flag에 맞게 최단 거리로 순회하고 position을 return한다.
+        start에서 target number를 is_left_first flag에 맞게 최단 거리로 순회하고 move count를 return한다.
         """
+        tmp_start = start.copy()
         move_cnt = 0
+        distance_table = [[math.inf for _ in range(4)] for _ in range(4)]
+        q = deque()
+        x, y = start
+        q.append((x, y, 0))
+        distance_table[x][y] = 0
+        while q:
+            x, y, distance = q.popleft()
+            if (x, y) == target:
+                move_cnt = distance
+                break
+            distance += 1
+            for dx, dy in move:
+                nx, ny = dx + x, dy + y
+
+                if 0 <= nx <= 3 and 0 <= ny <= 3 and distance_table[nx][ny] > distance:
+                    distance_table[nx][ny] = distance
+                    q.append((nx, ny, distance))
+
+            d = 1
+            while 0 <= x - d and test_board[x - d][y] == 0:
+                if test_board[x - d][y] != 0:
+
+                    d += 1
+            if d != 1:  # 한번이라도 움직였으면
+                q.append((x - d, y, distance))
+            d = 1
+
+            while y + d <= 3 and test_board[x][y + d]:
+                d += 1
+            if d != 1:
+                q.append((x, y + d, distance))
+
+            d = 1
+
+            while y + d <= 3 and test_board[x][y + d]:
+                d += 1
+            if d != 1:
+                q.append((x, y + d, distance))
+
+            d = 1
+
+            while y + d <= 3 and test_board[x][y + d]:
+                d += 1
+            if d != 1:
+                q.append((x, y + d, distance))
+
+
+    return move_cnt
 
 
     combination_size = len(pos_info)
     for combination in combinations:
+        test_board = deepcopy(board)
         for i in range(2**combination_size):
-            current_pos = (r, c)
+            current_pos = [r, c]
             current_move_count = 0
             binary_set = f"{bin(i)[2:]:0{combination_size}}"
             for idx, card_number in enumerate(combination):
-                current_pos, move_count = bfs(current_pos, card_number, binary_set[idx] == '0')
-                current_move_count += move_count
+                if binary_set[idx] == '0':
+                    first_target, second_target = pos_info[card_number]
+                else:
+                    second_target, first_target = pos_info[card_number]
+                current_move_count += bfs(test_board, current_pos, first_target)
+                current_move_count += bfs(test_board, current_pos, second_target)
+
             if current_move_count < min_move_count:
                 min_move_count = current_move_count
 
