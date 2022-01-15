@@ -10,16 +10,28 @@ ex ) 1, 2, 3 순서라면 1-1, 1-2 가 있을거고 두개의 순서도 각각 �
 최대 720 * 64 가지의 조합을 bfs로 최단거리를 구한다.
 
 """
-
 import math
-from copy import deepcopy
 from itertools import permutations
 from collections import defaultdict, deque
+INF = math.inf
+
+
+def ctrl_move(board, x, y, dx, dy):
+    while True:
+        nx = x + dx
+        ny = y + dy
+        if nx < 0 or nx >= 4 or ny < 0 or ny >= 4:
+            return x, y
+
+        else:
+            if board[nx][ny] != 0:
+                return nx, ny
+            x, y = nx, ny
 
 
 def solution(board, r, c):
     move = ((-1, 0), (0, 1), (1, 0), (0, -1))  # 시계방향
-    min_move_count = math.inf
+    min_move_count = INF
     pos_info = defaultdict(list)
     for row in range(4):
         for col in range(4):
@@ -28,24 +40,15 @@ def solution(board, r, c):
 
     combinations = list(permutations(pos_info.keys(), len(pos_info)))
 
-    print(combinations)
-
     def bfs(test_board, start, target) -> int:
-        """
-        start에서 target number를 is_left_first flag에 맞게 최단 거리로 순회하고 move count를 return한다.
-        """
-        tmp_start = start.copy()
         move_cnt = 0
-        distance_table = [[math.inf for _ in range(4)] for _ in range(4)]
+        distance_table = [[INF for _ in range(4)] for _ in range(4)]
         q = deque()
         x, y = start
         q.append((x, y, 0))
         distance_table[x][y] = 0
         while q:
             x, y, distance = q.popleft()
-            if (x, y) == target:
-                move_cnt = distance
-                break
             distance += 1
             for dx, dy in move:
                 nx, ny = dx + x, dy + y
@@ -53,59 +56,41 @@ def solution(board, r, c):
                 if 0 <= nx <= 3 and 0 <= ny <= 3 and distance_table[nx][ny] > distance:
                     distance_table[nx][ny] = distance
                     q.append((nx, ny, distance))
-
-            d = 1
-            while 0 <= x - d and test_board[x - d][y] == 0:
-                if test_board[x - d][y] != 0:
-
-                    d += 1
-            if d != 1:  # 한번이라도 움직였으면
-                q.append((x - d, y, distance))
-            d = 1
-
-            while y + d <= 3 and test_board[x][y + d]:
-                d += 1
-            if d != 1:
-                q.append((x, y + d, distance))
-
-            d = 1
-
-            while y + d <= 3 and test_board[x][y + d]:
-                d += 1
-            if d != 1:
-                q.append((x, y + d, distance))
-
-            d = 1
-
-            while y + d <= 3 and test_board[x][y + d]:
-                d += 1
-            if d != 1:
-                q.append((x, y + d, distance))
-
-
-    return move_cnt
-
+                    if (nx, ny) == target:
+                        return distance
+                nx, ny = ctrl_move(test_board, x, y, dx, dy)
+                if distance_table[nx][ny] > distance:
+                    distance_table[nx][ny] = distance
+                    q.append((nx, ny, distance))
+                    if (nx, ny) == target:
+                        return distance
+        return move_cnt
 
     combination_size = len(pos_info)
     for combination in combinations:
-        test_board = deepcopy(board)
         for i in range(2**combination_size):
             current_pos = [r, c]
             current_move_count = 0
-            binary_set = f"{bin(i)[2:]:0{combination_size}}"
+            binary_set = f"{bin(i)[2:]:0>{combination_size}}"
+
+            test_board = [[col for col in row] for row in board]
+
             for idx, card_number in enumerate(combination):
                 if binary_set[idx] == '0':
                     first_target, second_target = pos_info[card_number]
                 else:
                     second_target, first_target = pos_info[card_number]
                 current_move_count += bfs(test_board, current_pos, first_target)
-                current_move_count += bfs(test_board, current_pos, second_target)
+                current_move_count += bfs(test_board, first_target, second_target)
+                current_pos = second_target
 
+                test_board[first_target[0]][first_target[1]] = test_board[second_target[0]][second_target[1]] = 0
+                if current_move_count > min_move_count:
+                    break
             if current_move_count < min_move_count:
                 min_move_count = current_move_count
 
-
-    return min_move_count
+    return min_move_count + combination_size * 2
 
 
 
