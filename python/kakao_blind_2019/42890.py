@@ -32,7 +32,7 @@ def solution(relation):
                 candidate_keys.append(combination)
 
     return len(candidate_keys)
-asdfasdfasdf
+
 
 def int2bit(keys: tuple, length: int) -> int:
     """
