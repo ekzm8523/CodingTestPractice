@@ -1,30 +1,20 @@
 # https://programmers.co.kr/learn/courses/30/lessons/92334
 
 def solution(id_list, report, k):
-    report_set = {user_id: set() for user_id in id_list}
+    report_count = {user_id: 0 for user_id in id_list}
+    deduplication_report = set(report)
+    response_count = {user_id: 0 for user_id in id_list}
 
-    for row in report:
+    for row in deduplication_report:
         reporter, reported_person = row.split()
-        report_set[reporter].add(reported_person)
+        report_count[reported_person] += 1
 
-    reported_count = {user_id: 0 for user_id in id_list}
-    for reporter, reported_persons in report_set.items():
-        for person in reported_persons:
-            reported_count[person] += 1
+    for row in deduplication_report:
+        reporter, reported_person = row.split()
+        if report_count[reported_person] >= k:
+            response_count[reporter] += 1
 
-    for person in reported_count:
-        reported_count[person] = reported_count[person] >= k
-
-    answer = []
-
-    for user_id in id_list:
-        cnt = 0
-        for person in report_set[user_id]:
-            if reported_count[person]:
-                cnt += 1
-        answer.append(cnt)
-
-    return answer
+    return [response_count[user_id] for user_id in id_list]
 
 
 if __name__ == '__main__':
