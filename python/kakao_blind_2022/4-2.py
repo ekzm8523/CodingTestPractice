@@ -3,20 +3,45 @@
 from itertools import combinations_with_replacement
 from collections import Counter
 
+
+def calculate_score(lion: list[int], apeach: list[int]) -> int:
+    final_score = 0
+    for score, (l, a) in enumerate(zip(lion, apeach)):
+        if l == a == 0:
+            continue
+        if l > a:
+            final_score += score
+        else:
+            final_score -= score
+
+    return final_score
+
+
+def is_change(answer: list[int], new_answer: list[int]) -> bool:
+    for a, b in zip(answer, new_answer):
+        if a < b:
+            return True
+        elif a > b:
+            return False
+    return False  # 이 경우는 없음
+
+
 def solution(n, info):
     answer = []
-    # Todo : 중복조합을 활용해서 문제풀기
-    # Todo : DFS를 통해 문제 풀기
-    # print()
-    # for comb in combinations_with_replacement(range(11), n):
-    #     lion = [0 for _ in range(11)]
-    #     for k, v in Counter
-    #     for obj in comb:
-    #         lion[obj] += 1
+    apeach = list(reversed(info))
+    max_score = 0
+    for comb in combinations_with_replacement(range(11), n):
+        lion = [0 for _ in range(11)]
+        for key, value in Counter(comb).items():
+            lion[key] = value
 
-
-
-    return answer
+        score = calculate_score(lion, apeach)
+        if score > max_score:
+            max_score, answer = score, lion.copy()
+        elif score == max_score and is_change(answer, lion):
+            max_score, answer = score, lion.copy()
+    answer.reverse()
+    return answer if answer else [-1]
 
 
 if __name__ == '__main__':
