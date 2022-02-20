@@ -1,9 +1,5 @@
 # https://programmers.co.kr/learn/courses/30/lessons/92343
-from collections import deque
-# DFS(현재 노드 번호, 양의 수, 늑대의 수, 다음으로 방문할 수 있는 노드의 집합)
-
-
-
+# DFS(현재 노드 번호, 양의 수, 늑대의 수, 다음으로 방문할 수 있는 노드의 리스트, 방문 기록 리스트)
 
 def solution(info, edges):
     size = len(info)
@@ -12,27 +8,27 @@ def solution(info, edges):
     for a, b in edges:
         graph[a].append(b)
 
-    def dfs(current_node, sheep_cnt, wolf_cnt, candidate_node, visit):
+    def dfs(current_node: int, sheep_cnt: int, wolf_cnt: int, candidate_node: list, visit: list):
         nonlocal answer
         sheep_cnt, wolf_cnt = sheep_cnt + (info[current_node] ^ 1), wolf_cnt + info[current_node]  # 양, 늑대 cnt update
 
         if sheep_cnt <= wolf_cnt or visit[current_node]:
             return
+
         visit[current_node] = True
         answer = max(answer, sheep_cnt)  # update
 
         candidate_node.extend(graph[current_node])
-
         for node in candidate_node:
             dfs(
                 current_node=node,
                 sheep_cnt=sheep_cnt,
                 wolf_cnt=wolf_cnt,
-                candidate_node=[node for node in candidate_node if not visit[node] and node != current_node],
+                candidate_node=[node for node in candidate_node if visit[node] is False and node != current_node],
                 visit=visit.copy()
             )
 
-    dfs(current_node=0, sheep_cnt=0, wolf_cnt=0, candidate_node=[], visit=[False for _ in info])
+    dfs(current_node=0, sheep_cnt=0, wolf_cnt=0, candidate_node=[], visit=[False] * size)
     return answer
 
 
