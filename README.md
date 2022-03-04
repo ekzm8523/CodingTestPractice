@@ -1,2 +1,2 @@
 # CodingTestPractice
-코테준비
+꾸준하게 
