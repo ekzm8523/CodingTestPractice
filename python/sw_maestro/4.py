@@ -1,24 +1,28 @@
+import random
+from bisect import bisect_right
+
 
 def main():
-    meal_cnt = int(input())
+    meal_cnt = 8000
 
-    meals = list(map(int, input().split()))
+    meals = [random.randint(1, 2498) for _ in range(meal_cnt)]
     meals.sort()
+
     answer = 0
-    # 이분탐색?
     for i in range(meal_cnt - 2):
-        if meals[i] > 2500:
-            break
         for j in range(i + 1, meal_cnt - 1):
             if meals[i] + meals[j] > 2500:
                 break
-            for k in range(j + 1, meal_cnt):
-                s = meals[i] + meals[j] + meals[k]
-                if 2000 <= s <= 2500:
-                    answer += 1
-                elif 2500 < s:
-                    break
+            remain_sum = 2500 - (meals[i] + meals[j])
 
+            idx = bisect_right(meals, remain_sum, lo=j + 1)  # 합이 처음으로 2500이 넘는 idx
+            # print(meals)
+            # print(meals[i], meals[j], remain_sum)
+            # print(meals[j+1:idx])
+            if idx == j + 1:  # 맞는게 하나도 없을대
+                break
+
+            answer += (idx - j - 1)
     print(answer)
 
 
