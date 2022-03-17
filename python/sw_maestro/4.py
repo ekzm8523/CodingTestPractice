@@ -16,9 +16,7 @@ def main():
             remain_sum = 2500 - (meals[i] + meals[j])
 
             idx = bisect_right(meals, remain_sum, lo=j + 1)  # 합이 처음으로 2500이 넘는 idx
-            # print(meals)
-            # print(meals[i], meals[j], remain_sum)
-            # print(meals[j+1:idx])
+
             if idx == j + 1:  # 맞는게 하나도 없을대
                 break
 
