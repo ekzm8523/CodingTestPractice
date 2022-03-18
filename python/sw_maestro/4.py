@@ -17,7 +17,7 @@ def main():
 
             idx = bisect_right(meals, remain_sum, lo=j + 1)  # 합이 처음으로 2500이 넘는 idx
 
-            if idx == j + 1:  # 맞는게 하나도 없을대
+            if idx == j + 1:  # 맞는게 하나도 없을 때
                 break
 
             answer += (idx - j - 1)

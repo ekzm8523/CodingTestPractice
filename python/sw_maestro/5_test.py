@@ -13,34 +13,35 @@ N줄에 걸쳐서 주어지는 3개의 정수 -10000<=x,y,z<=10000
 
 """
 
-import sys
 import math
+import random
+import time
 
 
 class SegmentTree:
     """
     - 10000부터 시작
     - 리프노드갯수 20001개
-
+    - 리프노드의 count를 세는 segment tree
     """
     def __init__(self):
         self.depth = math.ceil(math.log2(20001)) + 1
         self._tree = [0] * (2 ** self.depth)
         self.start_idx = 2 ** (self.depth - 1) + 10000  # -10000부터 시작하기 때문에
 
-    def insert(self, nums: tuple):
+    def insert(self, nums: tuple) -> None:
         for num in nums:
             idx = self.start_idx + num
             while idx > 0:
                 self._tree[idx] += 1
                 idx //= 2
 
-    def print(self, k):
+    def print(self, k) -> tuple[int, int]:
         left_div_idx = self.find(k + 1)
         right_div_idx = self.find((k + 1) * 2)
-        print(left_div_idx, right_div_idx)
+        return left_div_idx, right_div_idx  # 실제 프린트는 print(left_div_idx, right_div_idx)
 
-    def find(self, rank):
+    def find(self, rank) -> int:
         idx = 1
         # # 왼쪽 자식이 가진 count가 sorted_idx보다 크거나 같으면 왼쪽으로 이동 작으면 rank 빼주고 오른쪽으로 이동
         while idx < self.start_idx - 10000:
@@ -52,19 +53,21 @@ class SegmentTree:
         return idx - self.start_idx
 
 
-import random
 
 if __name__ == "__main__":
 
-    a, b = map(int, sys.stdin.readline().split())
-    query_cnt = int(sys.stdin.readline())
+    a, b = random.randint(-10000, 10000), random.randint(-10000, 10000)
+    query_cnt = 200
     tree = SegmentTree()
     tree.insert((a, b))
     nums = [a, b]
     for k in range(1, query_cnt + 1):
-        a, b, c = map(int, sys.stdin.readline().split())
+        a, b, c = random.randint(-10000, 10000), random.randint(-10000, 10000), random.randint(-10000, 10000)
         tree.insert((a, b, c))
-        tree.print(k)
+        l, r = tree.print(k)
+
+        # testing
         nums.extend((a, b, c))
         nums.sort()
-        print(nums[k+1], nums[k+2])
+        print((nums[k], nums[2*k+1]) == (l, r))
+        time.sleep(0.001)  # interrupt 발생 방지
