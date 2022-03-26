@@ -52,7 +52,6 @@ class SegmentTree:
         return idx - self.start_idx
 
 
-import random
 
 if __name__ == "__main__":
 
