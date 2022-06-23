@@ -14,100 +14,76 @@ parent[x][k] = "x번 정점의 2^k번째 조상 노드의 번호"
 - 2^n을 높여 봤을때 부모가 같다면 더 낮은 공통 부모는 없을까? 하고 낮추는 것
 """
 import sys
+from math import log2
+
 input = lambda: sys.stdin.readline().strip()
+sys.setrecursionlimit(int(2e6))
+
+class Node:
+    def __init__(self, parents=None, depth=None, children=None):
+        self.parents = parents if parents else []
+        self.children = children if children else []
+        self.depth = depth
+
 
 if __name__ == '__main__':
     node_count = int(input())
-    graph = {node_num: [-1, [], -1] for node_num in range(1, node_count + 1)}  # [parent, children, depth]
+    graph = {num: Node() for num in range(1, node_count + 1)}  # [parent, children, depth]
+
+    # init
     for _ in range(node_count - 1):
         parent, child = map(int, input().split())
         if parent > child:  # 무조건 작은 노드가 부모로 정의
             parent, child = child, parent
+        graph[parent].children.append(child)
+        graph[child].parents.append(parent)
 
-        graph[parent][1].append(child)
-        graph[child][0] = parent
+    # find depth
+    def find_depth(cur, depth):
+        graph[cur].depth = depth
+        for child in graph[cur].children:
+            find_depth(child, depth + 1)
 
-    # depth 구하기
-    graph[1][2] = 0
+    find_depth(1, 0)
 
-    # parents 배열 구하기
-    parents = []
+    # parents
+    def find_parents(cur):
+        parents_size = int(log2(graph[cur].depth)) if graph[cur].depth != 0 else 0
+        for i in range(1, parents_size + 1):
+            half_parent = graph[cur].parents[i-1]
+            graph[cur].parents.append(graph[half_parent].parents[i-1])
 
-# import sys
-# from dataclasses import dataclass, field
-# import math
-# from typing import List
-# input = lambda: sys.stdin.readline().strip()
-#
-#
-# @dataclass
-# class Node:
-#     num: int  # 구현 후 삭제
-#     depth: int = None
-#     parents: List[int] = field(default_factory=list)
-#     children: List[int] = field(default_factory=list)
-#
-#
-# def find_same_parent(tree: List[Node], left_node, right_node):
-#     if left_node == right_node:
-#         return left_node
-#
-#     while tree[left_node].parents[0] != tree[right_node].parents[0]:
-#         for i in range(1, len(tree[left_node].parents)):
-#             if tree[left_node].parents[i] == tree[right_node].parents[i]:
-#                 left_node, right_node = tree[left_node].parents[i - 1], tree[right_node].parents[i - 1]
-#                 return tree[left_node].parents[0]
-#         left_node, right_node = tree[left_node].parents[-1], tree[right_node].parents[-1]
-#
-#     return tree[left_node].parents[0]
-#
-# def find_same_depth_node(tree: List[Node], move_node: int, target_depth: int):
-#     current_node = move_node
-#     while tree[current_node].depth != target_depth:
-#         log_depth = math.log2(tree[current_node].depth - target_depth)
-#         current_node = tree[current_node].parents[int(log_depth)]
-#
-#     return current_node
-#
-#
-# def dfs_init(tree: List[Node], node_num: int, depth: int):
-#     for child in tree[node_num].children:
-#         tree[child].depth = depth
-#         step = 0
-#         parent_node = tree[child].parents[0]
-#         while parent_node != -1 and tree[parent_node].depth - 2 ** step >= 0:
-#             parent_node = tree[parent_node].parents[step]
-#             tree[child].parents.append(parent_node)
-#             step += 1
-#
-#         dfs_init(tree, child, depth + 1)
-#
-#
-# if __name__ == '__main__':
-#     node_cnt = int(input())
-#     tree = [None] + [Node(num=i) for i in range(1, node_cnt + 1)]
-#     tree[1].parents.append(-1)
-#     for _ in range(node_cnt - 1):
-#         parent, child = map(int, input().split())
-#         if parent > child:
-#             parent, child = child, parent
-#         tree[child].parents.append(parent)
-#         tree[parent].children.append(child)
-#
-#
-#     tree[1].depth = 0
-#     dfs_init(tree, 1, 1)
-#     query_cnt = int(input())
-#
-#     for _ in range(query_cnt):
-#         left_node, right_node = map(int, input().split())
-#         if tree[left_node].depth < tree[right_node].depth:  # 왼쪽이 더 아래에 있는 노드가 되도록
-#             left_node, right_node = right_node, left_node
-#         left_node = find_same_depth_node(tree, left_node, tree[right_node].depth)
-#
-#         print(find_same_parent(tree, left_node, right_node))
-#
-# """
+        for child in graph[cur].children:
+            find_parents(child)
+
+    find_parents(1)
+
+    query_count = int(input())
+    for _ in range(query_count):
+        node1, node2 = map(int, input().split())
+        if graph[node1].depth >= graph[node2].depth:  # 오른쪽의 depth가 더 깊도록 설정
+            node1, node2 = node2, node1
+        # 높이를 같게 만들어주기
+        depth_gab = graph[node2].depth - graph[node1].depth
+        while depth_gab > 0:
+            idx = int(log2(depth_gab))
+            node2 = graph[node2].parents[idx]
+            depth_gab -= 2 ** idx
+
+        # 최소 공통 조상 찾기
+        while node1 != node2:
+            flag = True
+            for i, (p1, p2) in enumerate(zip(graph[node1].parents, graph[node2].parents)):
+                if p1 == p2:
+                    flag = False
+                    if i == 0:
+                        node1, node2 = p1, p2
+                        break
+                    node1, node2 = graph[node1].parents[i-1], graph[node2].parents[i-1]
+            if flag:
+                node1, node2 = graph[node1].parents[-1], graph[node2].parents[-1]
+        print(node1)
+
 # 15
 # 1 2
 # 1 3
