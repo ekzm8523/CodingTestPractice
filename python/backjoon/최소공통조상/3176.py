@@ -12,83 +12,154 @@ parent[x][k] = "x번 정점의 2^k번째 조상 노드의 번호"
 2. 두 노드 사이의 depth를 갖게 해준다.
 3. parent 배열을 이분탐색으로 가장 작은 공통 부모를 찾는다.
 - 2^n을 높여 봤을때 부모가 같다면 더 낮은 공통 부모는 없을까? 하고 낮추는 것
+
 """
 import sys
 from typing import Optional, List, Tuple
 from math import log2
-input = lambda: sys.stdin.readline().strip()
+from collections import deque
 
+input = lambda: sys.stdin.readline().strip()
 
 class Node:
     def __init__(self, num):
         self.num: int = num
-        self.parent: Optional[int] = None
-        self.children: List[int] = []
         self.depth: Optional[int] = None
         self.parents: List[int] = []
-        self.weights: List[int] = []
-        self.parents_weight: List[Tuple] = []
+        self.parents_min_weight: List[int] = []
+        self.parents_max_weight: List[int] = []
+        self.neighborhood: List[Tuple] = []
 
     def __str__(self) -> str:
-        return f"num : {self.num}," \
-               f" parent : {self.parent}," \
-               f" children : {self.children}," \
-               f" parents : {self.parents}," \
-               f" parents_weight : {self.parents_weight}" \
-               f" depth : {self.depth}" \
-               f" weights : {self.weights}"
+        return f"num : {self.num}"\
+               f" parents : {self.parents}"\
+               f" depth : {self.depth}"
 
     def __repr__(self) -> str:
         return f"num : {self.num}," \
-               f" parent : {self.parent}," \
-               f" children : {self.children}," \
-               f" parents : {self.parents}," \
-               f" parents_weight : {self.parents_weight}"\
-               f" depth : {self.depth}" \
-               f" weights : {self.weights}"
+               f" parents : {self.parents}"\
+               f" depth : {self.depth}"
 
 
+def set_depth():
+    q = deque([(1, 0)])
+    graph[1].depth = 0
 
-def set_depth(graph: List[Node], depth: int, num: int):
-    graph[num].depth = depth
-    if depth > 0:
-        for _ in range(int(log2(depth))):  # parents의 사이즈 공식
-            graph[num].parents.append(0)
-            graph[num].parents_weight.append(0)
-    for child in graph[num].children:
-        set_depth(graph, depth + 1, child)
+    while q:
+        current_node, depth = q.popleft()
+        for next_node, weight in graph[current_node].neighborhood:
+            if graph[next_node].depth is None:
+                graph[next_node].depth = depth + 1
+                graph[next_node].parents.append(current_node)
+                graph[next_node].parents_min_weight.append(weight)
+                graph[next_node].parents_max_weight.append(weight)
+                q.append((next_node, depth + 1))
+
+    for node in graph:
+        if node and node.depth:
+            for _ in range(int(log2(node.depth))):  # 4 -> 0, 1, 2
+                node.parents.append(0)
+                node.parents_min_weight.append(0)
+                node.parents_max_weight.append(0)
 
 
+def set_parents():
 
-def set_parents(graph: List[Node], num: int):
-    parents_size = 0
-    if graph[num].depth:
-        parents_size = int(log2(graph[num].depth)) + 1  # 0은 log에 태울 수 없음 -> root node
+    for j in range(1, max_parents_size):
+        for i in range(1, node_count + 1):
+            if len(graph[i].parents) - 1 >= j:
+                graph[i].parents[j] = graph[graph[i].parents[j - 1]].parents[j - 1]
+                graph[i].parents_min_weight[j] = min(
+                    graph[graph[i].parents[j - 1]].parents_min_weight[j - 1],
+                    graph[i].parents_min_weight[j - 1]
+                )
+                graph[i].parents_max_weight[j] = max(
+                    graph[graph[i].parents[j - 1]].parents_max_weight[j - 1],
+                    graph[i].parents_max_weight[j - 1]
+                )
 
-    for i in range(1, parents_size):
-        graph[num].parents[i] = graph[graph[num].parents[i-1]].parents[i-1]
-        graph[num].parents_weight[i] = (
-            min(graph[num].parents_weight[i - 1][0], graph[graph[num].parents[i - 1]].parents_weight[i - 1][0]),
-            max(graph[num].parents_weight[i - 1][1], graph[graph[num].parents[i - 1]].parents_weight[i - 1][1]),
-        )  # min, max
 
-    for child in graph[num].children:
-        set_parents(graph, child)
+def lca(a: int, b: int):
+    _min, _max = sys.maxsize, 0
+    if graph[a].depth > graph[b].depth:  # 무조건 b가 더 깊거나 같도록
+        a, b = b, a
+    # 깊이를 같도록 만들어주는 로직, 깊이 맞춰주면서 weight 기억해줘야함
+    depth_gap = graph[b].depth - graph[a].depth
+    while depth_gap > 0:
+        exponent = int(log2(depth_gap))  # 가장 큰 비트 gap : 5 -> 2^2 + 2^0 -> exp : 2
+        _min, _max = min(_min, graph[b].parents_min_weight[exponent]), max(_max, graph[b].parents_max_weight[exponent])
+        b = graph[b].parents[exponent]
+        depth_gap -= 2**exponent
+
+
+    # print(graph[a].depth == graph[b].depth)
+    # 최소공통조상까지 찾아가면서 최소, 최대 weight 기억하기
+    run = a != b
+    while run:
+        flag = True
+        for i, (parents_a, parents_b) in enumerate(zip(graph[a].parents, graph[b].parents)):
+            if parents_a == parents_b:
+                if i == 0:
+                    run = False
+                    _min = min(_min, graph[a].parents_min_weight[i], graph[b].parents_min_weight[i])
+                    _max = max(_max, graph[a].parents_max_weight[i], graph[b].parents_max_weight[i])
+                    a, b = parents_a, parents_b
+                    break
+                _min = min(_min, graph[a].parents_min_weight[i - 1], graph[b].parents_min_weight[i - 1])
+                _max = max(_max, graph[a].parents_max_weight[i - 1], graph[b].parents_max_weight[i - 1])
+                a, b = graph[a].parents[i - 1], graph[b].parents[i - 1]
+                flag = False
+                break
+        if not graph[a].parents:  # 루트일때
+            run = False
+        if not run:
+            break
+        if flag:
+            _min = min(_min, graph[a].parents_min_weight[-1], graph[b].parents_min_weight[-1])
+            _max = max(_max, graph[a].parents_max_weight[-1], graph[b].parents_max_weight[-1])
+            a, b = graph[a].parents[-1], graph[b].parents[-1]
+
+    print(_min, _max)
+
 
 if __name__ == '__main__':
     node_count: int = int(input())
+    max_parents_size = int(log2(node_count)) + 1
     graph: List[Node] = [None] + [Node(num) for num in range(1, node_count + 1)]
-
+    visit: List[bool] = [False] * (node_count + 1)
     for _ in range(node_count - 1):
         a, b, weight = map(int, input().split())
-        if a > b:
-            a, b = b, a
-        graph[a].children.append(b)
-        graph[a].weights.append(weight)
-        graph[b].parent = a
-        graph[b].parents.append(a)
-        graph[b].parents_weight.append((weight, weight))
-    set_depth(graph, 0, 1)
-    set_parents(graph, 1)
-    for node in graph:
-        print(node)
+        graph[a].neighborhood.append((b, weight))
+        graph[b].neighborhood.append((a, weight))
+
+    set_depth()
+    set_parents()
+
+    query_count = int(input())
+    for _ in range(query_count):
+        a, b = map(int, input().split())
+        lca(a, b)
+
+"""
+Input
+7
+3 6 4
+1 7 1
+1 3 2
+1 2 6
+2 5 4
+2 4 4
+5
+6 4
+7 6
+1 2
+1 3
+3 5
+
+Output
+2 6
+1 4
+6 6
+2 2
+2 6
+"""
