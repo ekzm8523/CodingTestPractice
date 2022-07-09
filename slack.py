@@ -68,7 +68,6 @@
 #
 #
 # if __name__ == '__main__':
-#     token = "xoxb-3618932351313-3752718649571-ChP2oFSgfkwTbnfysggsufJZ"
 #     slack = SlackAPI(token)
 #     slack.post_message("출퇴근", "slack bot 자동화 시작")
 #     t = "08:00"
