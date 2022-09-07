@@ -27,13 +27,16 @@ def solution(gems, bag_idx, current_capacity):
     for i in range(gem_cnt):
         if gems & (1 << i) > 0 or gem_weights[i] > bag_max_weight:
             continue
-        if current_capacity >= gem_weights[i]:
+        if current_capacity >= gem_weights[i]:  # 현재 가방에 넣을 수 있을 때
             now_answer = max(
                 now_answer,
                 solution(gems | (1 << i), bag_idx, current_capacity - gem_weights[i]) + 1
             )
-        else:
-            now_answer = max(now_answer, solution(gems, bag_idx + 1, bag_max_weight))
+        else:  # 현재 가방에 못 넣을 때
+            now_answer = max(
+                now_answer,
+                solution(gems, bag_idx + 1, bag_max_weight)
+            )
 
     dp[gems][bag_idx][current_capacity] = now_answer
     return now_answer
