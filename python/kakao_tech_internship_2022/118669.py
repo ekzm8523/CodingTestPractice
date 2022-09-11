@@ -1,48 +1,38 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/118669
-import math
 from heapq import heappop as pop, heappush as push
 
 INF = int(1e7) + 1
 
-def solution(n, paths, gates, summits) -> list:
-    answer = [0, math.inf]
 
+def solution(n, paths, gates, summits) -> list:
     graph = [[] for _ in range(n + 1)]
     for a, b, dis in paths:
         graph[a].append((b, dis))
         graph[b].append((a, dis))
     summit_set = set(summits)
-    gate_set = set(gates)
 
-    def dijkstra(gate: int, summit: int, graph: list) -> int:
-        dp = [INF] * len(graph)
-        visit = [False] * len(graph)
-        dp[gate], visit[gate] = 0, True
-        hq = [(0, gate)]  # weight, gate number
-
-        while hq:
-            current_intensity, visit_number = pop(hq)
-
-            if current_intensity > dp[visit_number]:
-                continue
-
-            for next_number, distance in graph[visit_number]:
-                if (next_number in gate_set and next_number != gate) or\
-                        (next_number in summit_set and next_number != summit):
-                    continue
-                new_intensity = max(current_intensity, distance)
-                if new_intensity < dp[next_number]:
-                    dp[next_number] = new_intensity
-                    push(hq, (new_intensity, next_number))
-        return dp[summit]
-
+    dp = [INF] * len(graph)
+    hq = []  # weight, gate number
     for gate in gates:
-        for summit in summits:
-            intensity = dijkstra(gate, summit, graph)
-            if answer[1] >= intensity:
-                if answer[1] == intensity and answer[0] < summit:
-                    continue
-                answer[0], answer[1] = summit, intensity
+        hq.append((0, gate))
+        dp[gate] = 0
+
+    while hq:
+        current_intensity, visit_number = pop(hq)
+
+        if current_intensity > dp[visit_number] or visit_number in summit_set:  # 산봉우리나 이미 더 낮은 intensity가 존재할 때
+            continue
+
+        for next_number, distance in graph[visit_number]:
+            new_intensity = max(current_intensity, distance)
+            if new_intensity < dp[next_number]:
+                dp[next_number] = new_intensity
+                push(hq, (new_intensity, next_number))
+    answer = [0, INF]
+    summits.sort()
+    for summit in summits:
+        if answer[1] > dp[summit]:
+            answer[0], answer[1] = summit, dp[summit]
 
     return answer
 
