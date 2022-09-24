@@ -42,9 +42,6 @@ def solution(rc, operations):
 
 
 if __name__ == '__main__':
-    # rc = [[1, 2], [3, 4], [5, 6]]
-    # operations = ["Rotate", "ShiftRow"]
-    # print(solution(rc, operations))
 
     rc = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     operations = ["Rotate", "ShiftRow"]
