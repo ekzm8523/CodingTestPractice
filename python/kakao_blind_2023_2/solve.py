@@ -77,7 +77,9 @@ def solve(args) -> None:
     weight = (checkout - checkin) * amount
     하루 평균량 만큼만 뽑자
 
-    weight를 기준으로
+    인원수 * 예약일수 -> weight로 두고 우선순위를 최상으로 주자
+    최대한 미뤄가면서 마지막에 판단하기 -> 더 좋은 우선순위의 예약이 있을수도 있으니까?
+    성수기 시즌임을 감지하는 코드가 하나 있어야함 -> 갑자기 요청수가 늘어난다던가 그런거를 확인하는 코드 -> flag로
     """
     global TOKEN
     TOKEN = start_api(args.problem, args.init_token)
@@ -99,7 +101,6 @@ def solve(args) -> None:
             tracking['every_req_room_cnt'] += weight
             deadline = min(check_in - 1, now + 14)
             push(requests_with_weight, (-weight, deadline, req_id))
-
 
         process_cnt = 0
         accept_request = []

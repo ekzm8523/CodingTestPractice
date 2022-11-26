@@ -81,6 +81,8 @@ def solve(args) -> None:
     하루 평균량 만큼만 뽑자
 
     weight를 기준으로
+    풀이 방법
+    그냥 들어온 순서대로 예약해주기.. -> 이게 왜 좋은건지 아직도 모르겠음
     """
     global TOKEN
     TOKEN = start_api(args.problem, args.init_token)

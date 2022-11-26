@@ -80,7 +80,7 @@ def solve(args) -> None:
     weight = (checkout - checkin) * amount
     하루 평균량 만큼만 뽑자
 
-    weight를 기준으로
+    여긴 잘못된 설계인듯 -> 예약 마감 하루전날의 친구만 예약가능하게 해둠
     """
     global TOKEN
     TOKEN = start_api(args.problem, args.init_token)
